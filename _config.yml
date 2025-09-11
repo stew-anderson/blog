@@ -1,0 +1,26 @@
+# site
+title: From code to boardroom
+description: Site description: @todo
+permalink: ':title/'
+baseurl: "/code-to-boardroom"
+url: "http://blog.stewart-anderson.co.uk"
+# me
+author: Stew Anderson
+author-img: stew-anderson.png
+about-author: @todo
+social-github: stew-anderson
+social-linkedin: # @todo
+social-email: 
+# disqus
+discus-identifier: # @todo
+# tracker
+analytics: # GA @todo
+# build settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+paginate: 8
+paginate_path: "/page/:num"
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
