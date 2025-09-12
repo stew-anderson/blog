@@ -2,7 +2,7 @@
 layout: post
 title: Second post :)
 date: 2025-09-10 12:34:56 +0000
-description: Init description
+description: Second post description
 img: second.jpg
 tags: [Productivity, Software]
 ---
