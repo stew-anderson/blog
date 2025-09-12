@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Init post
-date: 2025-09-12 12:34:56 +0000
+date: 2025-09-09 12:34:56 +0000
 description: Init description
 img: init.png
 tags: [Productivity, Software]
