@@ -4,7 +4,7 @@ description: todo
 Site description: todo
 permalink: ':title/'
 baseurl: "/"
-url: "http://blog.stewart-anderson.co.uk"
+url: "http://stew.andersonuk.org/blog"
 # me
 author: Stew Anderson
 author-img: stew-anderson.png
