@@ -1,3 +1,3 @@
 # Stew Anderson Tech Blog
 
-Main website hosting blog articles, url: [blog.stewart-anderson.co.uk](https://blog.stewart-anderson.co.uk).
+Main website hosting blog articles, url: [stew.andersonuk.org](https://stew.andersonuk.org).
