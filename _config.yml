@@ -2,7 +2,7 @@ title: From code to boardroom
 description: Code to Boardroom explores the intersection of technology, leadership, and business, offering insights from my experience growing as a technology leader.
 permalink: ':title/'
 baseurl: "/"
-url: "http://stew.andersonuk.org/"
+url: "http://stew.andersonuk.org"
 author: Stew Anderson
 author-img: "stew-anderson.jpeg"
 about-author: I’m Stew, a developer turned technology leader, sharing what I learn on the journey from code to boardroom.
