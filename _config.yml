@@ -3,7 +3,7 @@ title: From code to boardroom
 description: todo
 Site description: todo
 permalink: ':title/'
-baseurl: "/code-to-boardroom"
+baseurl: "/"
 url: "http://blog.stewart-anderson.co.uk"
 # me
 author: Stew Anderson
