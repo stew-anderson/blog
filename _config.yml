@@ -1,6 +1,7 @@
 # site
 title: From code to boardroom
-description: Site description: todo
+description: @todo
+Site description: @todo
 permalink: ':title/'
 baseurl: "/code-to-boardroom"
 url: "http://blog.stewart-anderson.co.uk"
