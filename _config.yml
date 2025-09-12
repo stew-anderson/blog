@@ -1,13 +1,13 @@
 # site
 title: From code to boardroom
-description: Site description: @todo
+description: Site description: todo
 permalink: ':title/'
 baseurl: "/code-to-boardroom"
 url: "http://blog.stewart-anderson.co.uk"
 # me
 author: Stew Anderson
 author-img: stew-anderson.png
-about-author: @todo
+about-author: todo
 social-github: stew-anderson
 social-linkedin: # @todo
 social-email: 
