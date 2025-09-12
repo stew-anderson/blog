@@ -7,7 +7,7 @@ author: Stew Anderson
 author-img: "stew-anderson.jpeg"
 about-author: I started in code, now I lead in tech — this blog is where I share the lessons along the way.
 social-github: stew-anderson
-social-linkedin: "https://www.linkedin.com/in/stewart-anderson-095bb634/"
+social-linkedin: "stewart-anderson-095bb634"
 analytics: # GA @todo
 markdown: kramdown
 plugins:
