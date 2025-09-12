@@ -5,7 +5,7 @@ baseurl: "/"
 url: "http://stew.andersonuk.org/"
 author: Stew Anderson
 author-img: "stew-anderson.jpeg"
-about-author: I started in code, now I lead in tech — this blog is where I share the lessons along the way.
+about-author: I started in code, now I lead in tech; this blog is where I share the lessons along the way.
 social-github: stew-anderson
 social-linkedin: "stewart-anderson-095bb634"
 analytics: # GA @todo
