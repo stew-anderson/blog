@@ -1,22 +1,14 @@
-# site
 title: From code to boardroom
-description: todo
-Site description: todo
+description: Code to Boardroom explores the intersection of technology, leadership, and business, offering insights from my experience growing as a technology leader.
 permalink: ':title/'
 baseurl: "/"
-url: "http://stew.andersonuk.org/blog"
-# me
+url: "http://stew.andersonuk.org/"
 author: Stew Anderson
-author-img: stew-anderson.png
-about-author: todo
+author-img: "stew-anderson.jpeg"
+about-author: I started in code, now I lead in tech — this blog is where I share the lessons along the way.
 social-github: stew-anderson
-social-linkedin: # @todo
-social-email: 
-# disqus
-discus-identifier: # @todo
-# tracker
+social-linkedin: "https://www.linkedin.com/in/stewart-anderson-095bb634/"
 analytics: # GA @todo
-# build settings
 markdown: kramdown
 plugins:
   - jekyll-sitemap
