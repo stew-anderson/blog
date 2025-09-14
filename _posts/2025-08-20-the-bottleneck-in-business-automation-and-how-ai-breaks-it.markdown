@@ -15,7 +15,7 @@ Most organisations run into the same obstacle: automation is only as effective a
 
 Fail fast? Not in this scenario.
 
-### The Breakthrough
+### The breakthrough
 
 Enter AI.
 
@@ -29,7 +29,7 @@ But this automation tool operated differently - you created steps in a process, 
 
 It’s just data abstraction, right, but no-code at this level of criticality for the org?
 
-### The Shock and the opportunity
+### The shock and the opportunity
 
 My first reaction: unease.
 
@@ -46,7 +46,7 @@ Whilst this process felt wrong to the ways of working within software engineerin
 
 By lowering the barrier to entry, AI lets teams’ experiment before they even know what the “right” requirements are. It creates space for curiosity and discovery, the kind of low-hanging fruit that traditional automation can’t reach.
 
-### The Takeaway
+### The takeaway
 
 AI automation won’t replace engineering excellence where stability and scale matter. But it will open the door for business users to test, learn, and move faster than they ever could through the traditional requirements pipeline.
 
