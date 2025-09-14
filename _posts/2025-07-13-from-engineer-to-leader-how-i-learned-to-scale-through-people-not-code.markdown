@@ -1,9 +1,9 @@
 ---
 layout: post
-title: From engineer to leader: how I learned to scale through people, not code
+title: "From engineer to leader: how I learned to scale through people, not code"
 date: 2025-07-13 00:00:00 +0000
-description: Success as an engineer came from writing code. Success as a leader came from building trust, giving feedback, and enabling others.
-img: 
+description: "Success as an engineer came from writing code. Success as a leader came from building trust, giving feedback, and enabling others."
+img: "from-engineer-to-leader-how-i-learned-to-scale-through-people-not-code.jpg"
 tags: [Management, Lessons, Growth]
 ---
 

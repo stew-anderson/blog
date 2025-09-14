@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The bottleneck in business automation — and how AI breaks it
+title: "The bottleneck in business automation and how AI breaks it"
 date: 2025-08-20 00:00:00 +0000
-description: AI is breaking the bottlenecks of traditional business automation, shifting from rigid requirements to natural language and faster discovery
-img: the-bottleneck-in-business-automation-and-how-ai-breaks-it.jpg
+description: "AI is breaking the bottlenecks of traditional business automation, shifting from rigid requirements to natural language and faster discovery"
+img: "the-bottleneck-in-business-automation-and-how-ai-breaks-it.jpg"
 tags: [AI, Automation, Business Empowerment]
 ---
 
