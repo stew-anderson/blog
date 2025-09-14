@@ -1200,6 +1200,12 @@ a.newer-posts:hover {
   padding: 20px;
 }
 
+.wrap-content a,
+.wrap-content a:visited{
+  text-decoration: none;
+  color: #263959;
+}
+
 .header-page {
   text-align: center;
   margin: 10px 0;

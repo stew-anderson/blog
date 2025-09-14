@@ -1,5 +1,11 @@
 .wrap-content {
   padding: 20px;
+
+  a,
+  a:visited{
+    text-decoration: none;
+    color: #263959;
+  }
 }
 
 .header-page {
