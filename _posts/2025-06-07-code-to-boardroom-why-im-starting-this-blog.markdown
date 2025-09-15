@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Code to boardroom: why I’m starting this blog."
+title: "Code to boardroom: why I’m starting this blog"
 date: "2025-06-07 00:00:00 +0000"
 description: "My journey from late-night debugging to leading teams, and the lessons I’m learning on the path from code to boardroom."
 img: "code-to-boardroom-why-im-starting-this-blog.jpg"
