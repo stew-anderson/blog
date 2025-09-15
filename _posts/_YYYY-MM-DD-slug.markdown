@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 
+title: ""
 date: YYY-MM-DD HH:MM:SS +0000
-description: 
+description: ""
 img: 
 tags: []
 ---
