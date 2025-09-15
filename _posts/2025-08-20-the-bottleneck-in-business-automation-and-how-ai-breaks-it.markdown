@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: "post"
 title: "The bottleneck in business automation and how AI breaks it"
-date: 2025-08-20 00:00:00 +0000
+date: "2025-08-20 00:00:00 +0000"
 description: "AI is breaking the bottlenecks of traditional business automation, shifting from rigid requirements to natural language and faster discovery"
 img: "the-bottleneck-in-business-automation-and-how-ai-breaks-it.jpg"
-tags: [AI, Automation, Business Empowerment]
+tags: ["AI", "Automation", "Business Empowerment"]
 ---
 
 Business automation has long been touted as a way most orgs can boost efficiency: eliminating repetitive tasks, connecting systems, and allowing people to concentrate on more valuable work.
