@@ -43,7 +43,7 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('assets/css'));
 });
 
-// Compression images
+// Compress images
 gulp.task('img', function() {
 	return gulp.src('assets/img/**/*')
 		.pipe(cache(imagemin({

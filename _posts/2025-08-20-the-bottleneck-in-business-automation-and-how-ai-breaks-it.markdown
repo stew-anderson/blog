@@ -19,7 +19,7 @@ Fail fast? Not in this scenario.
 
 Enter AI.
 
-For the first time, natural language serves as the gateway to automation. No lengthy requirement documents. No need for a translation layer between “what the business wants” and “what engineering can create”. You simply describe the process in plain English, and the system translates it into action.
+For the first time, natural language serves as the gateway to automation. No lengthy requirement documents. No need for a translation layer between "what the business wants" and "what engineering can create". You simply describe the process in plain English, and the system translates it into action.
 
 When I tried out one of these new platforms, it completely turned my engineering instincts on it’s head.
 
@@ -44,7 +44,7 @@ These are valid questions. But then I realised: that’s not the point.
 
 Whilst this process felt wrong to the ways of working within software engineering there’s a bigger picture here. It’s the low hanging fruit that AI should be supporting, and that’s *business empowerment*.
 
-By lowering the barrier to entry, AI lets teams’ experiment before they even know what the “right” requirements are. It creates space for curiosity and discovery, the kind of low-hanging fruit that traditional automation can’t reach.
+By lowering the barrier to entry, AI lets teams’ experiment before they even know what the "right" requirements are. It creates space for curiosity and discovery, the kind of low-hanging fruit that traditional automation can’t reach.
 
 ### The takeaway
 

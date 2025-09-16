@@ -30,7 +30,7 @@ The first time I witnessed a teammate take complete ownership of a project I wou
 ### 3. Communication becomes your codebase
 As an engineer, precision matters; ambiguity breaks things. 
 
-As a manager, communication is your new "codebase”. You're now writing for humans, not computers, and humans need repetition, clarity, and context. If I'd said something once, I assumed everyone was aware. In reality, people need to hear the vision, the priorities, and the "why" multiple times and in different ways.
+As a manager, communication is your new "codebase". You're now writing for humans, not computers, and humans need repetition, clarity, and context. If I'd said something once, I assumed everyone was aware. In reality, people need to hear the vision, the priorities, and the "why" multiple times and in different ways.
 
 I learned that when you feel like you're over-communicating, you're probably just starting to communicate enough. Words, not commits, became the foundation for trust and alignment.
 
