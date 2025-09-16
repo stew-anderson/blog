@@ -26,7 +26,7 @@ Not all technical debt is inherently bad; it could be that it’s born of a cons
 But that’s only half the battle, prioritising doesn’t stop at just the debt, any innovations need to be in that trade off – not every single "new idea" belongs on the roadmap, only those that move the business forward should.
 
 ### 2. Setting stakeholder expectations
-This could have been the start and end of the list as it’s _the_ most important. Your non-technical stakeholder doesn’t see technical debt, it’s invisible. To them "cleaning up code" just looks like a delay. Our job as leader is to articulate the cost of debt into business terms:
+This could have been the start and end of the list as it’s _the_ most important. Your non-technical stakeholder doesn’t see technical debt, it’s invisible. To them "cleaning up code" just looks like a delay. Our job as leaders is to articulate the cost of debt into business terms:
 * "This issue adds X weeks to every new feature development"
 * "This risk could cause downtime worth Y in revenue"
 * "If we invest now, we reduce delivery friction by Z%"
@@ -46,7 +46,7 @@ Balancing technical debt and innovation isn’t just a tactical game. It’s a m
 * **Be transparent**: Share the trade-offs openly with your team and stakeholders.
 * **Celebrate both**: Ship a new feature but also celebrate when the team deletes 15,000 lines of obsolete code :metal:.
 
-Ultimately, the best leaders don’t choose between innovation and debt reduction, they integrate both into a strategy for sustainable delivery – ensuring today’s velocity doesn’t compromise tomorrow’s progress :rocket:.
+Ultimately, the best leaders don’t choose between innovation and debt reduction, they integrate both into a sustainable delivery strategy, ensuring today’s velocity doesn’t compromise tomorrow’s progress :rocket:.
 
 ---
 
