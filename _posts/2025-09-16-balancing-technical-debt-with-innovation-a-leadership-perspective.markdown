@@ -12,7 +12,7 @@ I’ve been on both sides of the fence, a frustrated developer dealing with tech
 When you step into leadership, the choice isn’t simple. Going for the re-write is the bold move, you are in effect saying to the business:
 > hold on, whilst we sort this out and when we’re done, we’ll be in exactly the same position as we are now.
 
-The sell of quicker features, faster response times and speed of further scaling gets drowned out by the fact you’re standing still, and normally for a considerable amount of time.
+The sell of quicker features, faster response times and speed of further scaling gets drowned out by the fact you’re standing still, and depending on the debt potentially be for a considerable amount of time.
 
 The art of this situation is in how you prioritise, communicate and then deliver.
 
