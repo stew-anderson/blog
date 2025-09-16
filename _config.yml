@@ -1,15 +1,15 @@
-title: From code to boardroom
-description: Code to Boardroom explores the intersection of technology, leadership, and business, offering insights from my experience growing as a technology leader.
+title: "From code to boardroom"
+description: "Code to Boardroom explores the intersection of technology, leadership, and business, offering insights from my experience growing as a technology leader."
 permalink: ':title/'
 baseurl: "/"
 url: "http://stew.andersonuk.org"
-author: Stew Anderson
+author: "Stew Anderson"
 author-img: "stew-anderson.jpeg"
-about-author: I’m Stew, a developer turned technology leader, I swapped commits for conversations and I'm sharing what I learn on the journey from code to boardroom.
-social-github: stew-anderson
+about-author: "I’m Stew, a developer turned technology leader, I swapped commits for conversations and I'm sharing what I learn on the journey from code to boardroom."
+social-github: "stew-anderson"
 social-linkedin: "stewart-anderson-095bb634"
-analytics: # GA @todo
-markdown: kramdown
+analytics: "G-GWQ326R86E"
+markdown: "kramdown"
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
