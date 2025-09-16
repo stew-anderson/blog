@@ -1162,7 +1162,7 @@ footer .copyright {
   line-height: normal;
 }
 
-.post .post-content .post-title a {
+.post .post-content a {
   font-family: 'PT Serif', serif;
   text-decoration: none;
   color: #263959;
