@@ -970,33 +970,21 @@ table tfoot td {
 
 .about .author-name {
   font-family: 'PT Serif', serif;
-  margin: 0 0 10px;
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   font-size: 16px;
   text-transform: uppercase;
   color: #333030;
   font-weight: 700;
 }
 
-.about .author-name::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 0;
-  display: block;
-  width: 7px;
-  height: 7px;
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
-  background-color: #515151;
-}
-
 .about p {
   font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.about a {
+  color: #263959;
   margin: 0 0 10px;
 }
 
