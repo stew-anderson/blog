@@ -5,6 +5,9 @@ date: "2025-06-07 00:00:00 +0000"
 description: "My journey from late-night debugging to leading teams, and the lessons I’m learning on the path from code to boardroom."
 img: "code-to-boardroom-why-im-starting-this-blog.jpg"
 tags: ["Career", "Leadership", "Management", "Lessons", "Growth"]
+us-photographer: "x"
+us-user: "y"
+us-images: "z"
 ---
 
 My career started as most tech careers do: with code. I was a developer, learning frameworks, debugging until the early hours, turning caffeine to code, and focusing on solving problems one line at a time :sunglasses: .
