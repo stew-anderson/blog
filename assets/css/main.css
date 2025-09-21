@@ -1194,6 +1194,10 @@ a.newer-posts:hover {
   color: #263959;
 }
 
+.wrap-content .photo-credit{
+  text-align: right;
+}
+
 .header-page {
   text-align: center;
   margin: 10px 0;
