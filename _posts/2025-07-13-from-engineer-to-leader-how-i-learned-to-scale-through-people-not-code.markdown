@@ -5,6 +5,9 @@ date: "2025-07-13 00:00:00 +0000"
 description: "Success as an engineer came from writing code. Success as a leader came from building trust, giving feedback, and enabling others."
 img: "from-engineer-to-leader-how-i-learned-to-scale-through-people-not-code.jpg"
 tags: ["Management", "Lessons", "Growth"]
+unsplashphotographer: "name_gravity"
+unsplashuser: "@name_gravity"
+unsplashimage: "floating-green-leaf-plant-on-persons-hand-_AdUs32i0jc"
 ---
 
 When I first entered the field of engineering, my idea of success was simple: write nice code, solve difficult problems, and get things deployed: done!
@@ -63,7 +66,3 @@ Instead, I’ve learned to scale by enabling others, by building trust, by commu
 And the truth is, the journey isn’t over. Each new stage of leadership requires unlearning old habits and embracing new ones. But that’s what makes it worth it.
 
 If you’re an IC considering leadership, my advice is simple: embrace the discomfort. That’s where the growth and the real scale happens.
-
----
-
-Photo by [name_gravity](https://unsplash.com/@name_gravity) on [unsplash](https://unsplash.com/photos/floating-green-leaf-plant-on-persons-hand-_AdUs32i0jc)

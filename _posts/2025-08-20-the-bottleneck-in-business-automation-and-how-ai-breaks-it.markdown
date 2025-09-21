@@ -5,6 +5,9 @@ date: "2025-08-20 00:00:00 +0000"
 description: "AI is breaking the bottlenecks of traditional business automation, shifting from rigid requirements to natural language and faster discovery"
 img: "the-bottleneck-in-business-automation-and-how-ai-breaks-it.jpg"
 tags: ["AI", "Automation", "Business Empowerment"]
+unsplashphotographer: "Pat Kay"
+unsplashuser: "@patkay"
+unsplashimage: "time-lapse-photography-of-road-3d7DTnuNj6E"
 ---
 
 Business automation has long been touted as a way most orgs can boost efficiency: eliminating repetitive tasks, connecting systems, and allowing people to concentrate on more valuable work.
@@ -51,7 +54,3 @@ By lowering the barrier to entry, AI lets teams’ experiment before they even k
 AI automation won’t replace engineering excellence where stability and scale matter. But it will open the door for business users to test, learn, and move faster than they ever could through the traditional requirements pipeline.
 
 It’s not about automating perfect systems.<br/>It’s about automating possibilities.<br/>And that’s the rewiring that changes everything.
-
----
-
-Photo by [Pat Kay](https://unsplash.com/@patkay) on [unsplash](https://unsplash.com/photos/time-lapse-photography-of-road-3d7DTnuNj6E)

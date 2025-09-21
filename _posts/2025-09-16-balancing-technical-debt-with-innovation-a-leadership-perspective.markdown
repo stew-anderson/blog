@@ -5,6 +5,9 @@ date: "2025-09-16 00:00:00 +0000"
 description: "Balancing technical debt and innovation is a leadership challenge. Here’s how to prioritise, communicate, and deliver sustainably."
 img: "balancing-technical-debt-with-innovation-a-leadership-perspective.jpg"
 tags: ["Technical Debt", "Software Delivery", "Productivity"]
+unsplashphotographer: "Jon Flobrant"
+unsplashuser: "@jonflobrant"
+unsplashimage: "man-walking-on-forest-_r19nfvS3wY"
 ---
 
 I’ve been on both sides of the fence, a frustrated developer dealing with technical debt, and the leader deciding whether to overlook it in order to ship sooner. I’ve seen first-hand what ignoring technical debt does to a project, it accelerates it into the "end of life" phase in the long run and frustrates everyone on a daily basis in the short term.
@@ -47,7 +50,3 @@ Balancing technical debt and innovation isn’t just a tactical game. It’s a m
 * **Celebrate both**: Ship a new feature but also celebrate when the team deletes 15,000 lines of obsolete code :metal:.
 
 Ultimately, the best leaders don’t choose between innovation and debt reduction, they integrate both into a sustainable delivery strategy, ensuring today’s velocity doesn’t compromise tomorrow’s progress :rocket:.
-
----
-
-Photo by [Jon Flobrant](https://unsplash.com/@jonflobrant) on [unsplash](https://unsplash.com/photos/man-walking-on-forest-_r19nfvS3wY)

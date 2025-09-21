@@ -5,9 +5,9 @@ date: "2025-06-07 00:00:00 +0000"
 description: "My journey from late-night debugging to leading teams, and the lessons I’m learning on the path from code to boardroom."
 img: "code-to-boardroom-why-im-starting-this-blog.jpg"
 tags: ["Career", "Leadership", "Management", "Lessons", "Growth"]
-unsplashphotographer: ""
-unsplashuser: ""
-unsplashimage: ""
+unsplashphotographer: "Sergiu Cindea"
+unsplashuser: "@sergiucindea"
+unsplashimage: "white-concrete-staircase-with-black-metal-railings-RPGtL6MDdfI"
 ---
 
 My career started as most tech careers do: with code. I was a developer, learning frameworks, debugging until the early hours, turning caffeine to code, and focusing on solving problems one line at a time :sunglasses: .
@@ -35,7 +35,3 @@ In this blog, I'll explore:
 * Personal reflection: what I'm learning as I keep growing on this journey.
 
 I’m calling this blog Code to Boardroom because that’s the path I’m walking: from developer, to engineering leader, and eventually to technology executive.
-
----
-
-Photo by [Sergiu Cindea](https://unsplash.com/@sergiucindea) on [unsplash](https://unsplash.com/photos/white-concrete-staircase-with-black-metal-railings-RPGtL6MDdfI)
