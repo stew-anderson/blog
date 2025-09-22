@@ -1,5 +1,5 @@
 .wrap-content {
-  padding: 20px;
+  padding: 0 20px 20px;
 
   a,
   a:visited{
@@ -7,6 +7,8 @@
     color: #263959;
   }
   .photo-credit{
+    display: block;
+    font-size: 11px;
     text-align: right;
   }
 }

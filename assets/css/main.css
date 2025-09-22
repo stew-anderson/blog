@@ -1185,7 +1185,7 @@ a.newer-posts:hover {
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
-  padding: 20px;
+  padding: 0 20px 20px;
 }
 
 .wrap-content a,
@@ -1195,6 +1195,8 @@ a.newer-posts:hover {
 }
 
 .wrap-content .photo-credit{
+  display: block;
+  font-size: 11px;
   text-align: right;
 }
 
