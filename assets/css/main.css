@@ -1196,6 +1196,7 @@ a.newer-posts:hover {
 
 .wrap-content .photo-credit{
   display: block;
+  margin: 5px 0 0;
   font-size: 11px;
   text-align: right;
 }
