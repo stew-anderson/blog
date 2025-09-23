@@ -1,8 +1,8 @@
 ---
 layout: "post"
-title: "Code to boardroom: why I’m starting this blog"
+title: "Code to boardroom: why I'm starting this blog"
 date: "2025-06-07 00:00:00 +0000"
-description: "My journey from late-night debugging to leading teams, and the lessons I’m learning on the path from code to boardroom."
+description: "My journey from late-night debugging to leading teams, and the lessons I'm learning on the path from code to boardroom."
 img: "code-to-boardroom-why-im-starting-this-blog.jpg"
 tags: ["Career", "Leadership", "Management", "Lessons", "Growth"]
 unsplashphotographer: "Sergiu Cindea"
@@ -34,4 +34,4 @@ In this blog, I'll explore:
 * Business alignment: why every technical decision has business consequences.
 * Personal reflection: what I'm learning as I keep growing on this journey.
 
-I’m calling this blog Code to Boardroom because that’s the path I’m walking: from developer, to engineering leader, and eventually to technology executive.
+I'm calling this blog Code to Boardroom because that's the path I'm walking: from developer, to engineering leader, and eventually to technology executive.

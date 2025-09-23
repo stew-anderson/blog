@@ -56,13 +56,13 @@ As an engineer, feedback was largely through code reviews: technical and precise
 
 Early on, I avoided tough feedback conversations, as I did not want to be that person discouraging my team. However, I have learned that not giving feedback is in many ways worse.
 
-I’ve learned that feedback isn’t about pointing out flaws — it’s about unlocking potential. Feedback, given and received, is a gift that fuels growth.
+I've learned that feedback isn't about pointing out flaws — it's about unlocking potential. Feedback, given and received, is a gift that fuels growth.
 
 ### Final thoughts
 My journey from engineer to leader has been less about climbing a corporate ladder, seeking a longer title, but more about letting go. Letting go from needing to be the smartest person in the room. Letting go from having to write the perfect line of code (or any code). Letting go from defining myself by my personal contributions.
 
-Instead, I’ve learned to scale by enabling others, by building trust, by communicating with clarity, and by investing in people.
+Instead, I've learned to scale by enabling others, by building trust, by communicating with clarity, and by investing in people.
 
-And the truth is, the journey isn’t over. Each new stage of leadership requires unlearning old habits and embracing new ones. But that’s what makes it worth it.
+And the truth is, the journey isn't over. Each new stage of leadership requires unlearning old habits and embracing new ones. But that's what makes it worth it.
 
-If you’re an IC considering leadership, my advice is simple: embrace the discomfort. That’s where the growth and the real scale happens.
+If you're an IC considering leadership, my advice is simple: embrace the discomfort. That's where the growth and the real scale happens.
