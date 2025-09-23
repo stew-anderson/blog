@@ -844,22 +844,16 @@ table tbody td {
 }
 
 table tr:nth-child(even) {
-  background: #adbecc;
+  background: #fff;
 }
 
 table thead {
-  background: #a9c4d1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#bed3dc), color-stop(66%, #b1cad5), to(#A9C4D1));
-  background: -webkit-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
-  background: -o-linear-gradient(top, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
-  background: linear-gradient(to bottom, #bed3dc 0%, #b1cad5 66%, #A9C4D1 100%);
   border-bottom: 1px solid #8c8c8c;
 }
 
 table thead th {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
   border-left: 1px solid #d0e4f5;
 }
 

@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Technology strategy is business strategy"
-date: "2025-09-24 00:00:00 +0000"
+date: "2025-09-22 00:00:00 +0000"
 description: "Tech decisions aren't just about code - they shape costs, risks, customers, and growth. This post explores why every technology choice is a business decision, and how you should approach them."
 img: "technology-strategy-is-business-strategy.jpg"
 tags: ["Strategy", "Leadership", "Business Impact"]
