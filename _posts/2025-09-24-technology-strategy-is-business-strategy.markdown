@@ -1,8 +1,8 @@
 ---
 layout: "post"
 title: "Technology strategy is business strategy"
-date: "2025-09-25 00:00:00 +0000"
-description: "Tech decisions aren't just about code - they shape costs, risks, customers, and growth. This post explores why every technology choice is a business decision, and how you should approach them."
+date: "2025-09-24 00:00:00 +0000"
+description: "Tech decisions aren't just about code - they shape costs, risks, customers, and growth. This post explores why every technology choice is a business decision, and how they should be approached."
 img: "technology-strategy-is-business-strategy.jpg"
 tags: ["Strategy", "Leadership", "Business Impact"]
 unsplashphotographer: "Javier Allegue Barros"
@@ -24,7 +24,7 @@ If we consider a simple decision in a project, which front end framework to use,
 | More complex state management<br />*Higher maintenance overhead, more architectural decisions*| Simpler architecture<br />*Lower long-term maintenance costs, faster feature delivery* |
 | Larger ecosystem<br />*More third-party options, but decision fatigue* 						| Focused, curated ecosystem<br />*Less choice paralysis, but potential vendor lock-in* |
 
-Ok, that table will probably have raised a few eyebrows any frontend team, but you can see in this example how a straightforward technical decision for a framework looks more like a decision about **hiring strategy, operational costs and competitive positioning**. The technology is just the surface layer and illustrates a technical decision almost always hides a business layer beneath it.
+Ok, that table will probably have raised a few eyebrows any frontend team, but you can see in this example how a straightforward technical decision for a framework looks more like a decision about **hiring strategy, operational costs and competitive positioning**. This example is just one lens, stepping back you'll see the technology is the surface layer and illustrates a technical decision almost always hides a business layer beneath it.
 
 ### The business aspects of every tech decision
 Every tech decision carries a business abstraction: costs, risks, customer impact, talent, and strategic alignment.
