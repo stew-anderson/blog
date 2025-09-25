@@ -9,8 +9,8 @@ layout: none
       "url": "{{ site.baseurl }}{{ post.url }}",
       "date": "{{ post.date | date: '%Y-%m-%d' }}",
       "description": "{{ post.description }}",
-      "tags": "{{ post.tags | join: ', ' }}",
-      "excerpt": "{{ post.excerpt | strip_html | escape }}"
+      "excerpt": "{{ post.excerpt | strip_html | strip_newlines | escape }}",
+      "tags": "{{ post.tags | join: ', ' }}"
     }{% if forloop.last == false %},{% endif %}
   {% endfor %}
 ]
