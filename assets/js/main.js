@@ -60,7 +60,7 @@
             filtered.forEach(post => {
             const item = document.createElement('article');
 
-            item.addClass('post');
+            item.classList.add('post');
             item.innerHTML = blogsearch.render(post);
             resultsContainer.appendChild(item);
             });
