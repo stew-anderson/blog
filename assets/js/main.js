@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
     filtered.forEach(post => {
       const item = document.createElement('div');
 
-      item.innerHTML = '<a href="${post.url}">${post.title} | ${post.date} | ${post.excerpt}</a>';
+      item.innerHTML = '<a href='+post.url+'">'+post.title+' | '+post.date+' | '+post.description+' | '+post.tags+'</a>';
       resultsContainer.appendChild(item);
     });
   });

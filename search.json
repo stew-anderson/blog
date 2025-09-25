@@ -8,7 +8,7 @@ layout: none
       "url": "{{ site.baseurl }}{{ post.url }}",
       "date": "{{ post.date | date: '%Y-%m-%d' }}",
       "description": "{{ post.description }}",
-      "tags": "{{ post.tags }}"
+      "tags": "{{ post.tags | join: ', ' }}"
     }{% if forloop.last == false %},{% endif %}
   {% endfor %}
 ]
