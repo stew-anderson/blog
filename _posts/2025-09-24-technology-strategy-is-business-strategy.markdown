@@ -5,9 +5,9 @@ date: "2025-09-24 00:00:00 +0000"
 description: "Tech decisions aren't just about code - they shape costs, risks, customers, and growth. This post explores why every technology choice is a business decision, and how they should be approached."
 img: "technology-strategy-is-business-strategy.jpg"
 tags: ["Strategy", "Leadership", "Business Impact"]
-unsplashphotographer: "Javier Allegue Barros"
-unsplashuser: "@soymeraki"
-unsplashimage: "silhouette-of-road-signage-during-golden-hour-C7B-ExXpOIE"
+unsplashphotographer: "JESHOOTS.COM"
+unsplashuser: "@jeshoots"
+unsplashimage: "depth-of-field-photography-of-man-playing-chess-fzOITuS1DIQ"
 ---
 
 Too often, tech decisions are framed as purely technical. In reality, every tech decision has business consequences. Throughout my career I've interacted with multiple technical teams that feel they "*have no impact on revenue*", as they are not "*customer facing*", in truth their work is a vital component in the process that has a far greater impact on revenue, as much as those customer facing roles.
