@@ -40,30 +40,32 @@
      * 
      */
     document.addEventListener('DOMContentLoaded', function () {
-    const searchInput = document.getElementById('search-input');
-    const resultsContainer = document.getElementById('search-results');
-    let posts = [];
+        const searchInput = document.getElementById('search-input');
+        const resultsContainer = document.getElementById('search-results');
+        let posts = [];
 
-    fetch('/search.json')
-        .then(response => response.json())
-        .then(data => posts = data);
+        fetch('/search.json')
+            .then(response => response.json())
+            .then(data => posts = data);
 
-    searchInput.addEventListener('input', function () {
-        const query = this.value.toLowerCase();
+        searchInput.addEventListener('input', function () {
+            const query = this.value.toLowerCase();
 
-        resultsContainer.innerHTML = '';
+            resultsContainer.innerHTML = '';
 
-        if (query.length < 2) return;
+            if (query.length < 2) return;
 
-        const filtered = blogsearch.findPosts(query, posts);
+            const filtered = blogsearch.findPosts(query, posts);
 
-        filtered.forEach(post => {
-        const item = document.createElement('article');
+            console.log(filtered);
 
-        item.addClass('post');
-        item.innerHTML = blogsearch.render(post);
-        resultsContainer.appendChild(item);
+            filtered.forEach(post => {
+            const item = document.createElement('article');
+
+            item.addClass('post');
+            item.innerHTML = blogsearch.render(post);
+            resultsContainer.appendChild(item);
+            });
         });
-    });
     });
 })();
