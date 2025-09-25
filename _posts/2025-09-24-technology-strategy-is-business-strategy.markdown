@@ -36,7 +36,7 @@ Every tech decision carries a business abstraction: costs, risks, customer impac
 5. **Strategic alignment:** tech decisions both open and close future business paths, but can you pivot when the market shifts, can you scale when demand spikes – are you helping the business achieve its strategic goals.
 
 ### When technical debt becomes business debt
-This is a two-way street, and the issue of technical debt is not just the burden of the Tech teams, they impact business agility. Similarly, as demonstrated above, every short cut ignoring, or adding to tech debt only creates compound interest on future business decisions.
+This is a two-way street, and the issue of technical debt is not just the burden of the Tech teams, it impacts business agility. Similarly, as demonstrated above, every short cut ignoring, or adding to tech debt only creates compound interest on future business decisions.
 
 Picture a start-up that chooses a monolithic architecture for speed and getting releases out, 18 months later they find themselves at a crossroads losing bigger enterprise deals because to add single-sign-on means rebuilding their entire auth system :grimacing:. The "technical" architecture just became the bottleneck for their go-to-market strategy.
 
@@ -51,3 +51,5 @@ Next time the team debates a technical choice, the question to ask is "*how does
 The goal isn't to let business concerns dictate every tech decision, but to make these trade-offs consciously. Sometimes the "expensive" technical choice is worth it for developer productivity, system reliability, or competitive advantage. The key is having full visibility into the business implications of each option. We're not just building software, we're building businesses, and every line of code either moves it forward or holds it back.
 
 A technology choice is a business choice. If not seen in that light, you're not just making a tech mistake, you're making a business one.
+
+:point_right: When was the last time you chose the "technically best" option, only to realise it wasn't the best decision for the business?
