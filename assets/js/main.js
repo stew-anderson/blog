@@ -22,7 +22,7 @@
      * 
      * @returns string
      */
-    blogsearch.render = function () {
+    blogsearch.render = function (post) {
 
     return `
         <article class="post">
