@@ -27,13 +27,14 @@ If we consider a simple decision in a project, which front end framework to use,
 Ok, that table will probably have raised a few eyebrows any frontend team, but you can see in this example how a straightforward technical decision for a framework looks more like a decision about **hiring strategy, operational costs and competitive positioning**. This example is just one lens, stepping back you'll see the technology is the surface layer and illustrates a technical decision almost always hides a business layer beneath it.
 
 ### The business aspects of every tech decision
-Every tech decision carries a business abstraction: costs, risks, customer impact, talent, and strategic alignment.
+Every tech decision carries a business abstraction: costs, risks, speed, customer impact, talent, and strategic alignment.
 
 1. **Cost structure:** Nothing in this life is free...Open-source libraries can look free until you hit integrations complexity, security patching or support overhead or latency adds up - what is the long-term cost?
 2. **Risk profile:** Choosing cutting edge technology isn't just about performance, it's about betting product roadmaps on unproven stability
-3. **Customer experience (CX):** So often tech is the front line of your customer experience – clunky, unreliable interfaces cost you revenue and loyalty, customers don't see the tech decision, they feel them
-4. **Organisational capability / Talent and Culture:** Your technology stack defines your hiring profile, each choice shaped not just what you build but who you can hire to build it.
-5. **Strategic alignment:** tech decisions both open and close future business paths, but can you pivot when the market shifts, can you scale when demand spikes – are you helping the business achieve its strategic goals.
+3. **Time to market/speed:** Choosing a complex but "perfect" solution may slow shipping, while a simpler one gets you to market faster.
+4. **Customer experience (CX):** So often tech is the front line of your customer experience – clunky, unreliable interfaces cost you revenue and loyalty, customers don't see the tech decision, they feel them
+5. **Organisational capability / Talent and Culture:** Your technology stack defines your hiring profile, each choice shaped not just what you build but who you can hire to build it.
+6. **Strategic alignment:** tech decisions both open and close future business paths, but can you pivot when the market shifts, can you scale when demand spikes – are you helping the business achieve its strategic goals.
 
 ### When technical debt becomes business debt
 This is a two-way street, and the issue of technical debt is not just the burden of the Tech teams, it impacts business agility. Similarly, as demonstrated above, every short cut ignoring, or adding to tech debt only creates compound interest on future business decisions.
