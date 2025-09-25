@@ -57,7 +57,7 @@
 
             const filtered = blogsearch.findPosts(query, posts);
 
-            console.log(filtered);
+            console.log(filtered, query, posts);
 
             filtered.forEach(post => {
             const item = document.createElement('article');
