@@ -25,14 +25,12 @@
     blogsearch.render = function (post) {
 
     return `
-        <article class="post">
-        <a class="post-thumbnail" style="background-image: url(${post.img})" href="${post.url}"></a>
+        <a class="post-thumbnail" style="background-image: url(/assets/img/${post.img})" href="${post.url}"></a>
         <div class="post-content">
             <h2 class="post-title"><a href="${post.url}">${post.title}</a></h2>
             <p>${post.excerpt || ''} <a href="${post.url}">Read more</a></p>
             <span class="post-date">${post.date}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
         </div>
-        </article>
         `;
     }
 
