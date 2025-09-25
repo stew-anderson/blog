@@ -1,6 +1,6 @@
 (function() { 
-    
-    let blogsearch = blogsearch || {};
+
+    var blogsearch = blogsearch || {};
 
     /**
      * findPosts
