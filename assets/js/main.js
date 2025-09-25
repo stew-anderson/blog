@@ -10,7 +10,7 @@
      */
     blogsearch.findPosts = function (query, posts) {
 
-        posts.filter(post =>
+        return posts.filter(post =>
         post.title.toLowerCase().includes(query) ||
         post.description.toLowerCase().includes(query) || 
         post.tags.toLowerCase().includes(query)
@@ -56,8 +56,6 @@
             if (query.length < 2) return;
 
             const filtered = blogsearch.findPosts(query, posts);
-
-            console.log(filtered, query, posts);
 
             filtered.forEach(post => {
             const item = document.createElement('article');
