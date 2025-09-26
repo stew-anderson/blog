@@ -7,14 +7,41 @@
      * 
      * @param {*} query 
      * @param {*} posts 
+     * @return array
      */
     blogsearch.findPosts = function (query, posts) {
 
         return posts.filter(post =>
-        post.title.toLowerCase().includes(query) ||
-        post.description.toLowerCase().includes(query) || 
-        post.tags.toLowerCase().includes(query)
+            post.title.toLowerCase().includes(query) ||
+            post.description.toLowerCase().includes(query) || 
+            post.tags.toLowerCase().includes(query)
         );
+    }
+
+    /**
+     * truncateWords
+     * 
+     * @param {*} str
+     * @param {*} n
+     * @return string
+     */
+    blogsearch.truncateWords = function (str, n) {
+        const words = str.split(' ');
+
+        return (words.length > n) ? words.slice(0, n).join(' ') + '...' : str;
+    }
+
+    /**
+     * formatDate
+     * 
+     * @param {*} dateStr
+     * @return string
+     */
+    blogsearch.formatDate = function (dateStr) {
+        const options = { year: 'numeric', month: 'short', day: 'numeric' };
+        const date = new Date(dateStr);
+
+        return date.toLocaleDateString(undefined, options);
     }
 
     /**
@@ -28,8 +55,8 @@
         <a class="post-thumbnail" style="background-image: url(/assets/img/${post.img})" href="${post.url}"></a>
         <div class="post-content">
             <h2 class="post-title"><a href="${post.url}">${post.title}</a></h2>
-            <p>${post.excerpt || ''} <a href="${post.url}">Read more</a></p>
-            <span class="post-date">${post.date}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+            <p>${blogsearch.truncateWords(post.excerpt, 22) || ''} <a href="${post.url}">Read more</a></p>
+            <span class="post-date">${blogsearch.formatDate(post.date)}</span>
         </div>
         `;
     }
