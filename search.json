@@ -10,7 +10,8 @@ layout: none
       "date": "{{ post.date | date: '%Y-%m-%d' }}",
       "description": "{{ post.description }}",
       "excerpt": "{{ post.excerpt | strip_html | strip_newlines | escape }}",
-      "tags": "{{ post.tags | join: ', ' }}"
+      "tags": "{{ post.tags | join: ', ' }}",
+      "words": {% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 }}{% endunless %}
     }{% if forloop.last == false %},{% endif %}
   {% endfor %}
 ]
