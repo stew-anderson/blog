@@ -56,7 +56,7 @@
         <div class="post-content">
             <h2 class="post-title"><a href="${post.url}">${post.title}</a></h2>
             <p>${blogsearch.truncateWords(post.excerpt, 22) || ''} <a href="${post.url}">Read more</a></p>
-            <span class="post-date">${blogsearch.formatDate(post.date)}nbsp;&nbsp;&nbsp;—&nbsp</span
+            <span class="post-date">${blogsearch.formatDate(post.date)}&nbsp;&nbsp;&nbsp;—&nbsp</span>
             <span class="post-words">${post.words} minute read</span>
         </div>
         `;
