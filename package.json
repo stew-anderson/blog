@@ -12,7 +12,10 @@
     "gulp-autoprefixer": "^10.0.0",
     "gulp-cache": "^1.1.3",
     "gulp-imagemin": "^9.1.0",
-    "imagemin-pngquant": "^5.0.0",
-    "gulp-sass": "latest"
+    "gulp-sass": "latest",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
   }
 }

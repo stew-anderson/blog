@@ -1,11 +1,15 @@
 import gulp from 'gulp';
-import sass from 'gulp-sass';
 import prefix from 'gulp-autoprefixer';
 import imagemin from 'gulp-imagemin';
 import pngquant from 'imagemin-pngquant';
 import cache from 'gulp-cache';
 import { spawn } from 'child_process';
 import browserSync from 'browser-sync';
+
+import gulpSass from 'gulp-sass';
+import dartSass from 'sass';
+
+const sass = gulpSass(dartSass);
 
 const jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
