@@ -40,7 +40,7 @@ export function browserSyncServe(done) {
 export function sassTask() {
     return gulp.src('assets/css/scss/main.scss')
         .pipe(sass({
-            outputStyle: 'expanded',
+            style: 'compressed',
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
@@ -48,6 +48,7 @@ export function sassTask() {
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('assets/css'));
 }
+
 
 // Compress images
 export function imgTask() {
