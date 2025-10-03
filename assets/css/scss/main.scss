@@ -114,6 +114,18 @@ table tfoot td {
   background-color: #fff;
 }
 
+.search-page {
+  width: 100%;
+
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid $gray;
+    margin-bottom: 20px;
+  }
+}
+
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
   color: $white;

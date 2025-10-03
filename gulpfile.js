@@ -37,7 +37,7 @@ export function browserSyncServe(done) {
 }
 
 // Compile files
-export function sassTask() {
+export function sassTask(done) {
     return gulp.src('assets/css/scss/main.scss')
         .pipe(sass({
             style: 'compressed',
@@ -47,8 +47,9 @@ export function sassTask() {
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('assets/css'));
-}
 
+    done();
+}
 
 // Compress images
 export function imgTask() {
