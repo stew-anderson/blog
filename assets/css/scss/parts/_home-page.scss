@@ -91,7 +91,9 @@
       background-color: $body-color;
     }
   }
-  ul {
+}
+
+ul.nav {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -115,7 +117,6 @@
       }
     }
   }
-}
 
 footer {
   .copyright {

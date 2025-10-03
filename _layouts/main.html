@@ -8,15 +8,21 @@ layout: default
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
-      <a href="{{site.baseurl}}/"><i class="fa fa-home"></i></a>
+      <ul class="nav">
+        <li><a href="{{site.baseurl}}/"><i class="fa fa-home"></i></a></li>
+        <li><a href="{{site.baseurl}}/search"><i class="fa fa-search"></i></a></li>
+      </ul>
+      
+      
       <p>{{site.about-author}}</p>
+      
     </div>
   </header>
 
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
-      <ul>
+      <ul class="nav">
         {% if site.social-github %}
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
         {% endif %}
