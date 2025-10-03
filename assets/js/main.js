@@ -14,6 +14,7 @@
         return posts.filter(post =>
             post.title.toLowerCase().includes(query) ||
             post.description.toLowerCase().includes(query) || 
+            post.excerpt.toLowerCase().includes(query) || 
             post.tags.toLowerCase().includes(query)
         );
     }
