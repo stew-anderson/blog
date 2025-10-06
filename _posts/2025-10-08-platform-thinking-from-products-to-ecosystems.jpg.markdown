@@ -74,7 +74,7 @@ Platforms outlast products. They create network effects, build moats and unlock 
 ## Final thoughts on current AI developments impacting this area
 Just as API's unlocked interoperability of services and accelerated platform growth, we're now entering the next phase with [Anthropic's MCP (Model Context Protocol)](https://www.anthropic.com/news/model-context-protocol).
 
-We're at a turning point where there is the potential for [MCP](https://www.anthropic.com/news/model-context-protocol) to move us away from human-driven integrations to machine coordinated ones. Gone are the manual process and in return is the acceptance of allowing agents to understand, negotiate and act across platforms.
+We're at a turning point where there is the potential for [MCP](https://github.com/mcp) to move us away from human-driven integrations to machine coordinated ones. Gone are the manual process and in return is the acceptance of allowing agents to understand, negotiate and act across platforms.
 
 For businesses, that's both an opportunity and a threat. If your platform isn't ready to speak the same "language" as others in this emerging ecosystem, you risk being abstracted away by those that are.
 
