@@ -45,17 +45,17 @@ This changes everything:
 
 Opening up your platform introduces complexity, is the team ready for this? Because once you open the doors, you can't easily close them.
 
-### Build vs buy – knowing where to draw the line
+## Build vs buy – knowing where to draw the line
 
 Once you commit to platform thinking, the next challenge is knowing what to build and what not to. Building a platform from scratch is a multi-year investment. The question isn't whether to use existing infrastructure, it's where to draw the line between what you should build and what is a commodity that you should buy.
 
 > Build what differentiates you. Buy what scales you
 
 **Almost always buy:**
-* Auth/OAuth (Auth0, Okta): You're not more secure than the specialists (unless security is your differentiator!).
-* API gateways (Kong, AWS API Gateway): Rate limiting and key management are solved problems.
-* Monitoring (Grafana, DataDog): You need visibility into what third parties are doing.
-* Documentation platforms (ReadMe, Stoplight): Auto-generated docs from OpenAPI specs.
+* Auth/OAuth ([Auth0](https://auth0.com/), [Okta](https://www.okta.com/), [Keycloak](https://www.keycloak.org/)): You're not more secure than the specialists (unless security is your differentiator!).
+* API gateways ([Kong](https://konghq.com/), [AWS API Gateway](https://aws.amazon.com/api-gateway/)): Rate limiting and key management are solved problems.
+* Monitoring ([Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Prometheus](https://prometheus.io/)): You need visibility into what third parties are doing.
+* Documentation platforms ([ReadMe](https://readme.com/), [Stoplight](https://stoplight.io/)): Auto-generated docs from OpenAPI specs.
 
 **The gray zone:**
 * Webhook infrastructure: Buy at small scale (Svix, Hookdeck), but if reliability/ordering is your differentiation, consider building.
@@ -69,20 +69,13 @@ Once you commit to platform thinking, the next challenge is knowing what to buil
 * Data isolation and governance: Too tied to your compliance requirements.
 
 ## The payoff
-Platforms outlast products. They create network effects, build moats and unlock innovation at the edges.
-
-You don't have to control everything, you just have to enable it. If you don't build platforms you risk becoming part of someone else's.
+Platforms outlast products. They create network effects, build moats and unlock innovation at the edges. You don't have to control everything, you just have to enable it. If you don't build platforms you risk becoming part of someone else's.
 
 ## Final thoughts on current AI developments in this area
 Just as API's unlocked interoperability of services and accelerated platform growth, we're now entering the next phase with Anthropic's MCP (Model Context Protocol).
 
-We're at a turning point where there is the potential for MCP to move us away from human-driven integrations to machine coordinated ones. Gone are the manual process and acceptance of allowing agents to understand, negotiate and act across platforms.
+We're at a turning point where there is the potential for MCP to move us away from human-driven integrations to machine coordinated ones. Gone are the manual process and in return is the acceptance of allowing agents to understand, negotiate and act across platforms.
 
-For businesses, that's both an opportunity and a threat.
+For businesses, that's both an opportunity and a threat. If your platform isn't ready to speak the same "language" as others in this emerging ecosystem, you risk being abstracted away by those that are.
 
-If your platform isn't ready to speak the same “language” as others in this emerging ecosystem, you risk being abstracted away by those that are.
-
-We spent decades connecting systems.
-The next decade will be about connecting intelligence.
-
-But that and MCP is a whole other blog post...
+We spent decades connecting systems. The next decade will be about connecting intelligence. But that and MCP is a whole other blog post...
