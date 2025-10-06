@@ -4,7 +4,7 @@ title: "Platform thinking as a growth strategy"
 date: "2025-10-06 00:00:00 +0000"
 description: "From APIs to AI: why platform thinking is both a business strategy and an architectural shift toward scalable, intelligent ecosystems."
 img: "platform-thinking-as-a-growth-strategy.jpg"
-tags: ["Strategy", "Leadership", "Business Impact"]
+tags: ["Strategy", "Growth", "AI", "Software Delivery"]
 unsplashphotographer: "Reid Naaykens"
 unsplashuser: "@reidnaa"
 unsplashimage: "gray-metal-building-with-glass-windows-Wf_kNhZzL0A"
@@ -52,14 +52,14 @@ Once you commit to platform thinking, the next challenge is knowing what to buil
 > Build what differentiates you. Buy what scales you
 
 **Almost always buy:**
-* Auth/OAuth ([Auth0](https://auth0.com/), [Okta](https://www.okta.com/), [Keycloak](https://www.keycloak.org/)): You're not more secure than the specialists (unless security is your differentiator!).
-* API gateways ([Kong](https://konghq.com/), [AWS API Gateway](https://aws.amazon.com/api-gateway/)): Rate limiting and key management are solved problems.
-* Monitoring ([Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Prometheus](https://prometheus.io/)): You need visibility into what third parties are doing.
-* Documentation platforms ([ReadMe](https://readme.com/), [Stoplight](https://stoplight.io/)): Auto-generated docs from OpenAPI specs.
+* Auth/OAuth (e.g: [Auth0](https://auth0.com/), [Okta](https://www.okta.com/), [Keycloak](https://www.keycloak.org/)): You're not more secure than the specialists (unless security is your differentiator!).
+* API gateways (e.g: [Kong](https://konghq.com/), [AWS API Gateway](https://aws.amazon.com/api-gateway/)): Rate limiting and key management are solved problems.
+* Monitoring (e.g: [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Prometheus](https://prometheus.io/)): You need visibility into what third parties are doing.
+* Documentation platforms (e.g: [ReadMe](https://readme.com/), [Stoplight](https://stoplight.io/)): Auto-generated docs from OpenAPI specs.
 
 **The gray zone:**
-* Webhook infrastructure: Buy at small scale (Svix, Hookdeck), but if reliability/ordering is your differentiation, consider building.
-* Developer portals: Most platforms can use off-the-shelf (Backstage, ReadMe). But if integration ease is a primary reason developers choose you over competitors, where the documentation and onboarding experience is part of why they win (Stripe as a great example), then custom might be worth it. Would a merely "good" portal lose us developers? If no, buy it.
+* Webhook infrastructure: Buy at small scale (e.g: Svix, Hookdeck), but if reliability/ordering is your differentiation, consider building.
+* Developer portals: Most platforms can use off-the-shelf (Backstage, ReadMe). But if integration ease is a primary reason developers choose you over competitors, where the documentation and onboarding experience is part of why they win ([Stripe](https://docs.stripe.com/development) as a great example), then custom might be worth it. Would a merely "good" portal lose us developers? If no, buy it.
 * Multi-tenancy architecture: Standard patterns (shared DB with tenant IDs, schema-per-tenant, database-per-tenant) handle most cases. Build custom only if you have extreme regulatory requirements or truly complex isolation needs - start simple!
 
 **Almost always build:**
