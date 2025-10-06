@@ -10,7 +10,7 @@ unsplashuser: "@reidnaa"
 unsplashimage: "gray-metal-building-with-glass-windows-Wf_kNhZzL0A"
 ---
 
-Most businesses sell products, platform businesses create ecosystems.
+Most businesses focus on creating and selling products, platform businesses are all about creating ecosystems.
 
 Product growth is linear: every new customer or feature requires effort; however, platform growth is exponential: every new participant adds value for everyone else.
 Platform thinking in business terms means a mindset shift away from building products and moving towards enabling ecosystems. 
@@ -19,7 +19,7 @@ Platform thinking in business terms means a mindset shift away from building pro
 
 If we think about the product lifecycle, it starts with an idea, a prototype, a few iterations, then hopefully we can introduce users, we have adoption. Eventually it matures to have market fit, the product is stable and well understood. This is the perfect time to ask the bigger question: 
 
-> what if we allow others to build on what we've done for growth?
+> What if we let others build on what we’ve created to drive growth?
 
 Platform thinking is a mindset shift, from delivering features to enabling ecosystems. It's about moving from linear value chains to network effects, where each participant contributes value that benefits everyone else.
 
@@ -52,29 +52,29 @@ Once you commit to platform thinking, the next challenge is knowing what to buil
 > Build what differentiates you. Buy what scales you
 
 **Almost always buy:**
-* Auth/OAuth (e.g: [Auth0](https://auth0.com/), [Okta](https://www.okta.com/), [Keycloak](https://www.keycloak.org/)): You're not more secure than the specialists (unless security is your differentiator!).
-* API gateways (e.g: [Kong](https://konghq.com/), [AWS API Gateway](https://aws.amazon.com/api-gateway/)): Rate limiting and key management are solved problems.
-* Monitoring (e.g: [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Prometheus](https://prometheus.io/)): You need visibility into what third parties are doing.
-* Documentation platforms (e.g: [ReadMe](https://readme.com/), [Stoplight](https://stoplight.io/)): Auto-generated docs from OpenAPI specs.
+* **Auth/OAuth** (e.g: [Auth0](https://auth0.com/), [Okta](https://www.okta.com/), [Keycloak](https://www.keycloak.org/)): You're not more secure than the specialists (unless security is your differentiator!)
+* **API gateways** (e.g: [Kong](https://konghq.com/), [AWS API Gateway](https://aws.amazon.com/api-gateway/)): Rate limiting and key management are solved problems.
+* **Monitoring** (e.g: [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Prometheus](https://prometheus.io/)): You need visibility into what third parties are doing.
+* **Documentation platforms** (e.g: [ReadMe](https://readme.com/), [Stoplight](https://stoplight.io/)): Auto-generated docs from OpenAPI specs.
 
-**The gray zone:**
-* Webhook infrastructure: Buy at small scale (e.g: Svix, Hookdeck), but if reliability/ordering is your differentiation, consider building.
-* Developer portals: Most platforms can use off-the-shelf (Backstage, ReadMe). But if integration ease is a primary reason developers choose you over competitors, where the documentation and onboarding experience is part of why they win ([Stripe](https://docs.stripe.com/development) as a great example), then custom might be worth it. Would a merely "good" portal lose us developers? If no, buy it.
-* Multi-tenancy architecture: Standard patterns (shared DB with tenant IDs, schema-per-tenant, database-per-tenant) handle most cases. Build custom only if you have extreme regulatory requirements or truly complex isolation needs - start simple!
+**The grey zone:**
+* **Webhook infrastructure**: Buy at small scale (e.g: [Svix](https://www.svix.com/), [Hookdeck](https://hookdeck.com/), [n8n](https://n8n.io/)), but if reliability/ordering is your differentiation, consider building.
+* **Developer portals**: Most platforms can use off-the-shelf (e.g: [Backstage](https://backstage.io/), [OpsLevel](https://www.opslevel.com/)). But if integration ease is a primary reason developers choose you over competitors, where the documentation and onboarding experience is part of why they win ([Stripe](https://docs.stripe.com/development) as a great example), then custom might be worth it. Would a merely "good" portal lose us developers? If no, buy it.
+* **Multi-tenancy architecture**: Standard patterns (shared DB with tenant IDs, schema-per-tenant, database-per-tenant) handle most cases. Build custom only if you have extreme regulatory requirements or truly complex isolation needs - start simple!
 
 **Almost always build:**
-* Your core platform API's: This is your IP.
-* Extension/plugin architecture: Too specific to your domain model.
-* Ecosystem management: Partner onboarding and sandbox environments need to mirror your business.
-* Data isolation and governance: Too tied to your compliance requirements.
+* **Your core platform API's**: This is your IP.
+* **Extension/plugin architecture**: Too specific to your domain model.
+* **Ecosystem management**: Partner onboarding and sandbox environments need to mirror your business.
+* **Data isolation and governance**: Too tied to your compliance requirements.
 
 ## The payoff
 Platforms outlast products. They create network effects, build moats and unlock innovation at the edges. You don't have to control everything, you just have to enable it. If you don't build platforms you risk becoming part of someone else's.
 
-## Final thoughts on current AI developments in this area
-Just as API's unlocked interoperability of services and accelerated platform growth, we're now entering the next phase with Anthropic's MCP (Model Context Protocol).
+## Final thoughts on current AI developments impacting this area
+Just as API's unlocked interoperability of services and accelerated platform growth, we're now entering the next phase with [Anthropic's MCP (Model Context Protocol)](https://www.anthropic.com/news/model-context-protocol).
 
-We're at a turning point where there is the potential for MCP to move us away from human-driven integrations to machine coordinated ones. Gone are the manual process and in return is the acceptance of allowing agents to understand, negotiate and act across platforms.
+We're at a turning point where there is the potential for [MCP](https://www.anthropic.com/news/model-context-protocol) to move us away from human-driven integrations to machine coordinated ones. Gone are the manual process and in return is the acceptance of allowing agents to understand, negotiate and act across platforms.
 
 For businesses, that's both an opportunity and a threat. If your platform isn't ready to speak the same "language" as others in this emerging ecosystem, you risk being abstracted away by those that are.
 
