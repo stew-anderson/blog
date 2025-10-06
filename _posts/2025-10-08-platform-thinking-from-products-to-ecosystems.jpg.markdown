@@ -1,9 +1,9 @@
 ---
 layout: "post"
-title: "Platform thinking as a growth strategy"
+title: "Platform thinking: from products to ecosystems"
 date: "2025-10-06 00:00:00 +0000"
 description: "From APIs to AI: why platform thinking is both a business strategy and an architectural shift toward scalable, intelligent ecosystems."
-img: "platform-thinking-as-a-growth-strategy.jpg"
+img: "platform-thinking-from-products-to-ecosystems.jpg"
 tags: ["Strategy", "Growth", "AI", "Software Delivery"]
 unsplashphotographer: "Reid Naaykens"
 unsplashuser: "@reidnaa"
