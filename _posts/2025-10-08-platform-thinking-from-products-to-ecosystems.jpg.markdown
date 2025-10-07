@@ -10,24 +10,24 @@ unsplashuser: "@reidnaa"
 unsplashimage: "gray-metal-building-with-glass-windows-Wf_kNhZzL0A"
 ---
 
-Most businesses focus on creating and selling products, platform businesses are all about creating ecosystems.
+Most businesses focus on creating and selling products; platform businesses are all about creating ecosystems.
 
 Product growth is linear: every new customer or feature requires effort; however, platform growth is exponential: every new participant adds value for everyone else.
 Platform thinking in business terms means a mindset shift away from building products and moving towards enabling ecosystems. 
 
 ## From product to platform
 
-If we think about the product lifecycle, it starts with an idea, a prototype, a few iterations, then hopefully we can introduce users, we have adoption. Eventually it matures to have market fit, the product is stable and well understood. This is the perfect time to ask the bigger question: 
+If we think about the product lifecycle, it starts with an idea, a prototype, a few iterations, then hopefully we can introduce users and see adoption. Eventually it matures to have market fit, the product is stable and well understood. This is the perfect time to ask the bigger question: 
 
-> What if we let others build on what we’ve created to drive growth?
+> What if we stop looking inwards and let others build on what we’ve created to drive growth?
 
 Platform thinking is a mindset shift, from delivering features to enabling ecosystems. It's about moving from linear value chains to network effects, where each participant contributes value that benefits everyone else.
 
 ## Real-world examples
 
-One of the best examples is Microsoft, it went from selling boxes of software (remember them) to an Azure Cloud Platform + the MS 365 ecosystem, they opened up API's, created a massive developer marketplace, and transformed from product vendor to platform orchestrator.
+One of the best examples is Microsoft, it went from selling boxes of software (remember those?) to an Azure Cloud Platform + the Microsoft 365 ecosystem, they opened up API's, created a massive developer marketplace, and transformed from product vendor to platform orchestrator.
 
-Another example, Salesforce started as just a CRM software, when adding AppExchange platform with thousands of third-party apps, it's now an entire business application ecosystem.
+Another example, Salesforce started as just a CRM software, by adding the AppExchange platform with thousands of third-party apps, it's now an entire business application ecosystem.
 
 ## The hidden cost of being a platform
 
@@ -41,13 +41,13 @@ This changes everything:
 
 **Infrastructure must handle unpredictable load patterns.** When partners build on your platform, you can't control when they hammer your APIs. You need sophisticated rate limiting, circuit breakers, quotas per tenant, and the ability to isolate noisy neighbours without taking down the whole system.
 
-**Versioning becomes an long term contract.** Break an endpoint, and you break someone's business. You're now maintaining v1, v2, v3...v<sup>n</sup> simultaneously. Deployment pipelines needs to handle this. Monitoring needs to track metrics per API version. Your uptime now defines someone else's business continuity.
+**Versioning becomes an long-term contract.** Break an endpoint, and you break someone's business. You're now maintaining v1, v2, v3...v<sup>n</sup> simultaneously. Deployment pipelines need to handle this. Monitoring needs to track metrics per API version. Your uptime now defines someone else's business continuity.
 
 Opening up your platform introduces complexity, is the team ready for this? Because once you open the doors, you can't easily close them.
 
 ## Build vs buy – knowing where to draw the line
 
-Once you commit to platform thinking, the next challenge is knowing what to build and what not to. Building a platform from scratch is a multi-year investment. The question isn't whether to use existing infrastructure, it's where to draw the line between what you should build and what is a commodity that you should buy.
+Once you commit to platform thinking, the next challenge is knowing what to build and what not to. Building a platform from scratch is a multi-year investment. The question isn't whether to use existing infrastructure, it's where to draw the line between what you should build and what is a commodity to buy.
 
 > Build what differentiates you. Buy what scales you
 
@@ -69,13 +69,13 @@ Once you commit to platform thinking, the next challenge is knowing what to buil
 * **Data isolation and governance**: Too tied to your compliance requirements.
 
 ## The payoff
-Platforms outlast products. They create network effects, build moats and unlock innovation at the edges. You don't have to control everything, you just have to enable it. If you don't build platforms you risk becoming part of someone else's.
+Platforms outlast products. They create network effects, build moats, and unlock innovation at the edges. You don't have to control everything, you just have to enable it. If you don't build platforms you risk becoming part of someone else's.
 
 ## Final thoughts on current AI developments impacting this area
 Just as API's unlocked interoperability of services and accelerated platform growth, we're now entering the next phase with [Anthropic's MCP (Model Context Protocol)](https://www.anthropic.com/news/model-context-protocol).
 
-We're at a turning point where there is the potential for [MCP](https://github.com/mcp) to move us away from human-driven integrations to machine coordinated ones. Gone are the manual process and in return is the acceptance of allowing agents to understand, negotiate and act across platforms.
+We're at a turning point where there is the potential for [MCP](https://github.com/mcp) to move us away from human-driven integrations to machine coordinated ones. Gone are the manual process; in their place comes the acceptance of allowing agents to understand, negotiate and act across platforms.
 
 For businesses, that's both an opportunity and a threat. If your platform isn't ready to speak the same "language" as others in this emerging ecosystem, you risk being abstracted away by those that are.
 
-We spent decades connecting systems. The next decade will be about connecting intelligence. But that and MCP is a whole other blog post...
+We spent decades connecting systems. The next decade will be about connecting intelligence. But that, and MCP, is a whole other blog post...
