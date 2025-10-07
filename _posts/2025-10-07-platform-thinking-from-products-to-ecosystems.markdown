@@ -4,13 +4,13 @@ title: "Platform thinking: from products to ecosystems"
 date: "2025-10-07 00:00:00 +0000"
 description: "From APIs to AI: why platform thinking is both a business strategy and an architectural shift toward scalable, intelligent ecosystems."
 img: "platform-thinking-from-products-to-ecosystems.jpg"
-tags: ["Strategy", "Growth", "AI", "Software Delivery"]
+tags: ["Strategy", "Growth", "AI", "Software Delivery", "Digital Transformation"]
 unsplashphotographer: "Reid Naaykens"
 unsplashuser: "@reidnaa"
 unsplashimage: "gray-metal-building-with-glass-windows-Wf_kNhZzL0A"
 ---
 
-Most businesses focus on creating and selling products; platform businesses are all about creating ecosystems.
+The biggest tech companies in the world (Apple, Microsoft, Salesforce), didn't just scale their products, they scled ecosystems. This is the essence of platform thinking.
 
 Product growth is linear: every new customer or feature requires effort; however, platform growth is exponential: every new participant adds value for everyone else.
 Platform thinking in business terms means a mindset shift away from building products and moving towards enabling ecosystems. 
