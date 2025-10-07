@@ -19,7 +19,7 @@ The sell of quicker features, faster response times and further scaling opportun
 
 The art is in how you prioritise, communicate and then deliver.
 
-### 1. Prioritisation is strategy
+## 1. Prioritisation is strategy
 Not all technical debt is inherently bad; it could be that it's born of a conscious trade off to move faster. But technical debt acts the same as financial debt; it compounds. There is a simple framework to use to assess each case:
 
 * **Severity**: Does this debt impact customer experience, reliability or security?
@@ -28,7 +28,7 @@ Not all technical debt is inherently bad; it could be that it's born of a consci
 
 But that's only half the battle, prioritising doesn't stop at just the debt, any innovations need to be in that trade off – not every single "new idea" belongs on the roadmap, only those that move the business forward should.
 
-### 2. Setting stakeholder expectations
+## 2. Setting stakeholder expectations
 This could have been the start and end of the list as it's _the_ most important. Your non-technical stakeholder doesn't see technical debt, it's invisible. To them "cleaning up code" just looks like a delay. Our job as leaders is to articulate the cost of debt into business terms:
 * "This issue adds X weeks to every new feature development"
 * "This risk could cause downtime worth Y in revenue"
@@ -36,14 +36,14 @@ This could have been the start and end of the list as it's _the_ most important.
 
 This needs to be backed up with a clear plan on how it will be delivered, and the communication does not stop there, it's continuous. But this framing builds the trust and secures buy-ins for debt reduction alongside innovation.
 
-### 3. Quick wins vs long-term stability
+## 3. Quick wins vs long-term stability
 Sometimes, you need to show progress fast. Quick wins: a small refactor that speeds up deployments, or a new monitoring dashboard that demonstrates value and reassure stakeholders. 
 
 But balance those with structural work that doesn't show immediate payoff. Things like re-architecting a service, standardising tools, or improving test coverage are longer-term bets. Leaders must protect space for this type of work, carving out capacity for the work that maybe isn't immediately visible. 
 
 The key is linking the two, creating the quick wins to earn the right to invest in the long term – and be transparent about this, so stakeholders see the connection.
 
-### 4. The leadership mindset
+## 4. The leadership mindset
 Balancing technical debt and innovation isn't just a tactical game. It's a mindset shift:
 * **Think portfolio**: Treat debt work and innovation as a balanced investment mix.
 * **Be transparent**: Share the trade-offs openly with your team and stakeholders.
