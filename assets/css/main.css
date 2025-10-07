@@ -406,9 +406,9 @@ template {
 }
 
 .highlighter-rouge {
-  color: #ce887b;
+  color: #b01d02;
   font-weight: 400;
-  border: 1px solid #607D8B;
+  border: 1px solid #e0e0e0;
   border-radius: 3px;
   padding: 0.1rem 0.5rem;
 }
@@ -648,7 +648,7 @@ blockquote {
   padding-left: 1.1rem;
   margin-left: 1rem;
   font-style: italic;
-  color: #ada8a8;
+  color: #000;
 }
 
 pre {
