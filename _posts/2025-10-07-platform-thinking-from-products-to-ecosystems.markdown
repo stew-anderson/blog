@@ -10,9 +10,9 @@ unsplashuser: "@reidnaa"
 unsplashimage: "gray-metal-building-with-glass-windows-Wf_kNhZzL0A"
 ---
 
-The biggest tech companies in the world (Apple, Microsoft, Salesforce), didn't just scale their products, they scled ecosystems. This is the essence of platform thinking.
+The biggest tech companies in the world (Apple, Microsoft, Salesforce) didn't just scale their products, they scaled ecosystems. This is the essence of platform thinking.
 
-Product growth is linear: every new customer or feature requires effort; however, platform growth is exponential: every new participant adds value for everyone else.
+Product growth is linear: every new customer or feature requires effort. Platform growth is exponential: every new participant adds value for everyone else.
 Platform thinking in business terms means a mindset shift away from building products and moving towards enabling ecosystems. 
 
 ## From product to platform
@@ -49,7 +49,7 @@ Opening up your platform introduces complexity, is the team ready for this? Beca
 
 Once you commit to platform thinking, the next challenge is knowing what to build and what not to. Building a platform from scratch is a multi-year investment. The question isn't whether to use existing infrastructure, it's where to draw the line between what you should build and what is a commodity to buy.
 
-> Build what differentiates you. Buy what scales you
+> Build what differentiates you. Buy what scales you.
 
 **Almost always buy:**
 * **Auth/OAuth** (e.g: [Auth0](https://auth0.com/), [Okta](https://www.okta.com/), [Keycloak](https://www.keycloak.org/)): You're not more secure than the specialists (unless security is your differentiator!)
