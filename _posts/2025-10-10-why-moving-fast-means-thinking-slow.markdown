@@ -3,7 +3,7 @@ layout: "post"
 title: "Why moving fast means thinking slow"
 date: "2025-10-10 00:00:00 +0000"
 description: "Pace isn't progress. My journey of critical thinking shifting from debugging code to making better decisions as a tech leader, and the mental checklist I use."
-img: "critical-thinking-more-critical-now-than-ever-before.jpg"
+img: "why-moving-fast-means-thinking-slow.jpg"
 tags: ["Critical Thinking", "Leadership", "AI"]
 unsplashphotographer: "Fernando Santander"
 unsplashuser: "@pucelano"
