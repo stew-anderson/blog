@@ -1,29 +1,29 @@
 ---
 layout: "post"
-title: "Critical thinking: more critical now than ever before"
+title: "Why moving fast means thinking slow"
 date: "2025-10-10 00:00:00 +0000"
-description: "xxxxx"
+description: "Pace isn't progress. My journey of critical thinking shifting from debugging code to making better decisions as a tech leader, and the mental checklist I use."
 img: "critical-thinking-more-critical-now-than-ever-before.jpg"
-tags: ["Strategy", "Growth", "AI", "Software Delivery", "Digital Transformation"]
-unsplashphotographer: ""
-unsplashuser: "@"
-unsplashimage: ""
+tags: ["Critical Thinking", "Leadership", "AI"]
+unsplashphotographer: "Fernando Santander"
+unsplashuser: "@pucelano"
+unsplashimage: "a-statue-of-a-man-sitting-in-front-of-a-building-yjWjLmv13FI"
 ---
 
-In a world of enterprise tech, pace is mistaken for progress. We move fast because everyone else is.
+In a world of enterprise tech, pace is mistaken for progress. We move fast because everyone and everything else is.
 
-If I think to a time prior to computers commonly in homes and businesses, life felt slower, granted there's some heavily rose tinted glasses there. But there has been a distinct upturn in pace as humans play catch up. As systems, operating systems, applications and platforms were introduced to our ways of working, things felt faster, processes that use to take hours were now taking 10's of minutes.
+If I think to a time prior to computers commonly in homes and businesses, life felt slower, granted there's some heavily rose tinted glasses there. But there has been a distinct upturn in pace as humans play catch up to technology. As systems, operating systems, applications and platforms were introduced to our lives and ways of working, things felt faster, processes that use to take hours were now taking 10's of minutes or less.
 
 It feels like we're at the foothill of the second wave of this with AI. Whether the bubble bursts, deflates or becomes an essential aspect to our lives will be played out for us all to watch (and play a role in).
 
 Regardless of this new tech and the change to us, we remain as the squishy thing with grey matter, and the vital skill we still possess is critical thinking. However, as essential as this is, it can get lost or deprioritised in the pursuit of efficiency.
 
-## The Irony of the intelligent era
-We're in the back end of 2025 and AI is here being used on a day to day basis, in the workplace it can summarise, predict and optimise faster than we as humans can blink, we can't compete. But, if we are not careful it can also amplify our blind spots.
+## The irony of the intelligent era
+This was written in the back end of 2025 and AI is here being used on a day to day basis, in the workplace it can summarise, predict and optimise faster than we as humans can blink, we can't compete. But, if we are not careful it can also amplify our blind spots.
 
-If we put aside the more extreme hallucinations of AI (which interestingly has been proven by OpenAI to be a mathematical probability - we're not developing our way out of these...). If we accept the outputs of AI models, dashboards or algorithms without interrogation, the risk is automating bias at scale is real.
+If we put aside the more extreme hallucinations of AI ([which interestingly has been proven by OpenAI to be a mathematical probability](https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html) - we're not developing our way out of these...). If we accept the outputs of AI models, dashboards or algorithms without interrogation, the risk of automating bias at scale is real.
 
-The irony is, as the models become more advanced and, dare I say it, "Intelligent", then us humans need to become more thoughtful, not less, what we bring to the party is reasoning, context and judgement – these are the things that machines cannot replicate...for now.
+The irony is, as the models become more advanced and, dare I say it, "Intelligent", then us humans need to become more thoughtful, not less, what we bring to the party is reasoning, context, judgement and ethics – these are the things that machines cannot replicate...for now.
 
 Relating to my journey, as a software engineer, I was trained to optimise, to remove ambiguity and to find the "right" answer. But as I moved into leading teams, I learned that critical thinking looks very different at this level to what I was used to and had to evolve.
 
@@ -47,10 +47,10 @@ In software when we skip design principles the system becomes brittle, skipping 
 
 ## Slow thinking for fast times
 In order to move fast sustainably, you have to think slow. Far more intelligent psychologists than I, described two modes of thought:
-* System 1: which is fast and intuitive
-* System 2: which is slow and deliberate
+* **System 1**: which is fast and intuitive
+* **System 2**: which is slow and deliberate
 
-If we think about our working world, the majority of our tasks are consumed with System 1 - instant messaging, emails, dashboards, quick calls or even back-to-back calls. But the decisions that shape platforms, culture or strategy deserve System 2.
+If we think about our working world, the majority of our tasks are consumed with *System 1* - instant messaging, emails, dashboards, quick calls or even back-to-back calls. But the decisions that shape platforms, culture or strategy deserve *System 2*.
 
 My mental checklist:
 * What are the assumptions?
@@ -58,7 +58,7 @@ My mental checklist:
 * Who isn't in the room that should be?
 * What if we are wrong?
 
-Not blockers to the process, more guardrails to better thinking. It shifts from "What should we do?" to "How do we know this is right?"
+Not blockers to the process, more guardrails to better thinking. It shifts from "*What should we do?*" to "*How do we know this is right?*"
 
 ## The human edge
 Technology will continue to handle execution, but judgment, ethics, and reasoning remain human territory.
