@@ -998,6 +998,13 @@ a.newer-posts:hover {
   text-decoration: none;
   color: #263959;
 }
+.wrap-content p a,
+.wrap-content p a:visited {
+  Border-bottom: 1px #ccc dashed;
+}
+.wrap-content p a:hover {
+  border-bottom: 0;
+}
 .wrap-content .photo-credit {
   display: block;
   margin: 5px 0 0;

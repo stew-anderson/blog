@@ -6,6 +6,15 @@
     text-decoration: none;
     color: #263959;
   }
+  
+  p a,
+  p a:visited{
+    Border-bottom: 1px #ccc dashed
+  }
+  p a:hover{
+    border-bottom: 0;
+  }
+  
   .photo-credit{
     display: block;
     margin: 5px 0 0;
