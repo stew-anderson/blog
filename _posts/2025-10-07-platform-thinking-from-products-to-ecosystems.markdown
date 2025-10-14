@@ -4,7 +4,7 @@ title: "Platform thinking: from products to ecosystems"
 date: "2025-10-07 00:00:00 +0000"
 description: "From APIs to AI: why platform thinking is both a business strategy and an architectural shift toward scalable, intelligent ecosystems."
 img: "platform-thinking-from-products-to-ecosystems.jpg"
-tags: ["Strategy", "Growth", "AI", "Software Delivery", "Digital Transformation"]
+tags: ["Strategy", "Growth", "AI", "Software Delivery", "Digital Evolution"]
 unsplashphotographer: "Reid Naaykens"
 unsplashuser: "@reidnaa"
 unsplashimage: "gray-metal-building-with-glass-windows-Wf_kNhZzL0A"
