@@ -1,105 +1,42 @@
 (function() { 
 
-    var blogsearch = blogsearch || {};
-
-    /**
-     * findPosts
-     * Checks title, description, excerpt, and tags for matches
-     * 
-     * @param {*} query 
-     * @param {*} posts 
-     * @return array
-     */
-    blogsearch.findPosts = function (query, posts) {
-
-        return posts.filter(post =>
-            post.title.toLowerCase().includes(query) ||
-            post.description.toLowerCase().includes(query) || 
-            post.excerpt.toLowerCase().includes(query) || 
-            post.tags.toLowerCase().includes(query)
-        );
-    }
-
-    /**
-     * truncateWords
-     * Truncates a string to n words, adding ellipsis if needed.
-     * 
-     * @param {*} str
-     * @param {*} n
-     * @return string
-     */
-    blogsearch.truncateWords = function (str, n) {
-        const words = str.split(' ');
-
-        return (words.length > n) ? words.slice(0, n).join(' ') + '...' : str;
-    }
-
-    /**
-     * formatDate
-     * Formats a date string as 'MMM DD, YYYY'.
-     * 
-     * @param {*} dateStr
-     * @return string
-     */
-    blogsearch.formatDate = function (dateStr) {
-        const options = { year: 'numeric', month: 'short', day: 'numeric' };
-        const date = new Date(dateStr);
-
-        return date.toLocaleDateString(undefined, options);
-    }
-
-    /**
-     * render
-     * Generates HTML markup for a single post result
-     * 
-     * @returns string
-     */
-    blogsearch.render = function (post) {
-
-        return `
-            <a class="post-thumbnail" style="background-image: url(/assets/img/${post.img})" href="${post.url}"></a>
-            <div class="post-content">
-                <h2 class="post-title"><a href="${post.url}">${post.title}</a></h2>
-                <p>${blogsearch.truncateWords(post.excerpt, 22) || ''} <a href="${post.url}">Read more</a></p>
-                <span class="post-date">${blogsearch.formatDate(post.date)}&nbsp;&nbsp;&nbsp;—&nbsp</span>
-                <span class="post-words">${post.words} minute read</span>
-            </div>
-            `;
-    }
-
-    /**
-     * Wait for DOM to be ready before initializing search
-     */
+    // RSS Modal logic
     document.addEventListener('DOMContentLoaded', function () {
-        // Get references to input and results container
-        const searchInput = document.getElementById('search-input');
-        const resultsContainer = document.getElementById('search-results');
-        let posts = [];
+        var rssLink = document.getElementById('rss-link');
 
-        // Fetch post data from search.json
-        fetch('/search.json')
-            .then(response => response.json())
-            .then(data => posts = data);
+        if (rssLink) {
+            rssLink.addEventListener('click', function (e) {
+                e.preventDefault();
 
-        // Listen for input events on the search field
-        searchInput.addEventListener('input', function () {
-            const query = this.value.toLowerCase();
+                console.log('RSS link clicked');
 
-            resultsContainer.innerHTML = '';
+                // Create modal if it doesn't exist
+                if (!document.getElementById('rss-modal')) {
+                    var modal = document.createElement('div');
 
-            // Only search if query is at least 2 characters
-            if (query.length < 2) return;
+                    modal.className = 'rss-modal';
+                    modal.id = 'rss-modal';
+                    modal.innerHTML = `
+                        <div class="rss-inner">
+                            <h2>RSS Feed</h2>
+                            <p>This link is for RSS readers.<br />To subscribe, copy this link into your reader.<br /><br />Would you like to view the raw feed?</p>
+                            <div class="rss-buttons">
+                                <button class="continue" id="rss-modal-continue">Continue</button>
+                                <button class="cancel" id="rss-modal-cancel" >Cancel</button>
+                            </div>
+                        </div>
+                    `;
+                    document.body.appendChild(modal);
 
-            const filtered = blogsearch.findPosts(query, posts);
-
-            // Render each matching post
-            filtered.forEach(post => {
-                const item = document.createElement('article');
-
-                item.classList.add('post');
-                item.innerHTML = blogsearch.render(post);
-                resultsContainer.appendChild(item);
+                    // Button event listeners once appended to DOM
+                    document.getElementById('rss-modal-continue').onclick = function() {
+                        window.location.href = rssLink.href;
+                    };
+                    document.getElementById('rss-modal-cancel').onclick = function() {
+                        document.body.removeChild(modal);
+                    };
+                }
             });
-        });
+        }
     });
 })();
