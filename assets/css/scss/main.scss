@@ -145,7 +145,6 @@ table tfoot td {
   clear: both;
 }
 
-
 .rss-modal{
   position: fixed;
   top: 0;
@@ -174,13 +173,14 @@ table tfoot td {
   p{
     font-size: 1em;
   }
+
   .rss-buttons{
     margin-top: 1.5em;
     display: flex;
     gap: 1em;
     justify-content: center;
   }
-  
+
   button{
     border: none;
     border-radius: 4px;
