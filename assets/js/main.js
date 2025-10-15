@@ -8,8 +8,6 @@
             rssLink.addEventListener('click', function (e) {
                 e.preventDefault();
 
-                console.log('RSS link clicked');
-
                 // Create modal if it doesn't exist
                 if (!document.getElementById('rss-modal')) {
                     var modal = document.createElement('div');
