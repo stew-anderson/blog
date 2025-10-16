@@ -41,6 +41,7 @@ export function sassTask(done) {
     return gulp.src('assets/css/scss/main.scss')
         .pipe(sass({
             style: 'expanded' /*'compressed'*/,
+            outputStyle: 'expanded',
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
