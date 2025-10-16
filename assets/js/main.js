@@ -1,105 +1,119 @@
+/**
+ * main.js
+ * 
+ * RSS Feed Modal functionality.
+ * 
+ * Displays a modal dialog when the RSS feed link is clicked,
+ * warning users that the link is for RSS readers and offering
+ * to continue to the raw feed or cancel.
+ */
 (function() { 
+    'use strict';
 
-    var blogsearch = blogsearch || {};
-
+    // Namespace for RSS modal functionality
+    var rssModal = rssModal || {},
+        _$ = function (id) { 
+            return document.getElementById(id); 
+        };
+    
+    rssModal.modal = null;
+    
     /**
-     * findPosts
-     * Checks title, description, excerpt, and tags for matches
+     * modalExists
+     * Checks if there is a modal currently in the DOM.
      * 
-     * @param {*} query 
-     * @param {*} posts 
-     * @return array
+     * @returns boolean
      */
-    blogsearch.findPosts = function (query, posts) {
-
-        return posts.filter(post =>
-            post.title.toLowerCase().includes(query) ||
-            post.description.toLowerCase().includes(query) || 
-            post.excerpt.toLowerCase().includes(query) || 
-            post.tags.toLowerCase().includes(query)
-        );
+    rssModal.modalExists = function () {
+        return rssModal.modal !== null && document.body.contains(rssModal.modal);
     }
 
     /**
-     * truncateWords
-     * Truncates a string to n words, adding ellipsis if needed.
+     * addListeners
+     * Adds event listeners to modal buttons.
      * 
-     * @param {*} str
-     * @param {*} n
-     * @return string
+     * @returns void
      */
-    blogsearch.truncateWords = function (str, n) {
-        const words = str.split(' ');
+    rssModal.addListeners = function () {
 
-        return (words.length > n) ? words.slice(0, n).join(' ') + '...' : str;
-    }
+        _$('rss-modal-continue').onclick = function () {
+            window.location.href = _$('rss-link').href;
+        };
+        _$('rss-modal-cancel').onclick = rssModal.removeModal;
+    };
 
     /**
-     * formatDate
-     * Formats a date string as 'MMM DD, YYYY'.
+     * removeModal
+     * Removes the modal from the DOM if it exists.
      * 
-     * @param {*} dateStr
-     * @return string
+     * @returns void
      */
-    blogsearch.formatDate = function (dateStr) {
-        const options = { year: 'numeric', month: 'short', day: 'numeric' };
-        const date = new Date(dateStr);
+    rssModal.removeModal = function () {
 
-        return date.toLocaleDateString(undefined, options);
-    }
+        if (rssModal.modalExists()) {
+            document.body.removeChild(rssModal.modal);
+        }
+    };
 
     /**
-     * render
-     * Generates HTML markup for a single post result
+     *  showModal
+     * Creates and displays the RSS modal.
      * 
-     * @returns string
+     * @returns void
      */
-    blogsearch.render = function (post) {
+    rssModal.showModal = function () {
 
-        return `
-            <a class="post-thumbnail" style="background-image: url(/assets/img/${post.img})" href="${post.url}"></a>
-            <div class="post-content">
-                <h2 class="post-title"><a href="${post.url}">${post.title}</a></h2>
-                <p>${blogsearch.truncateWords(post.excerpt, 22) || ''} <a href="${post.url}">Read more</a></p>
-                <span class="post-date">${blogsearch.formatDate(post.date)}&nbsp;&nbsp;&nbsp;—&nbsp</span>
-                <span class="post-words">${post.words} minute read</span>
+        if (rssModal.modalExists()) {
+            return;
+        };
+
+        rssModal.modal = document.createElement('div');
+
+        rssModal.modal.className = 'rss-modal';
+        rssModal.modal.id = 'rss-modal';
+        rssModal.modal.innerHTML = `
+            <div class="rss-inner">
+                <h2>RSS Feed</h2>
+                <p>This link is for RSS readers.<br />To subscribe, click continue to see the raw feed and copy the url into your reader.</p>
+                <div class="rss-buttons">
+                    <button class="continue" id="rss-modal-continue">Continue</button>
+                    <button class="cancel" id="rss-modal-cancel">Cancel</button>
+                </div>
             </div>
-            `;
-    }
+        `;
+        document.body.appendChild(rssModal.modal);
 
-    /**
-     * Wait for DOM to be ready before initializing search
-     */
+        rssModal.addListeners();
+    };
+
+
+    // RSS Modal logic
     document.addEventListener('DOMContentLoaded', function () {
-        // Get references to input and results container
-        const searchInput = document.getElementById('search-input');
-        const resultsContainer = document.getElementById('search-results');
-        let posts = [];
 
-        // Fetch post data from search.json
-        fetch('/search.json')
-            .then(response => response.json())
-            .then(data => posts = data);
+        var rssLink = _$('rss-link');
 
-        // Listen for input events on the search field
-        searchInput.addEventListener('input', function () {
-            const query = this.value.toLowerCase();
+        if (rssLink) {
+            rssLink.addEventListener('click', function (e) {
+                
+                e.preventDefault();
 
-            resultsContainer.innerHTML = '';
-
-            // Only search if query is at least 2 characters
-            if (query.length < 2) return;
-
-            const filtered = blogsearch.findPosts(query, posts);
-
-            // Render each matching post
-            filtered.forEach(post => {
-                const item = document.createElement('article');
-
-                item.classList.add('post');
-                item.innerHTML = blogsearch.render(post);
-                resultsContainer.appendChild(item);
+                // Create modal if it doesn't exist
+                if (!_$('rss-modal')) {
+                    rssModal.showModal();
+                }
             });
+        }
+
+
+        // Listen for Escape key to close modal
+        document.addEventListener('keydown', function escListener(e) {
+
+            if (e.key === 'Escape' || e.key === 'Esc') {
+
+                if (rssModal.modalExists()) {
+                    rssModal.removeModal();
+                }
+            }
         });
     });
 })();
