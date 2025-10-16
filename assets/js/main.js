@@ -74,10 +74,10 @@
         rssModal.modal.innerHTML = `
             <div class="rss-inner">
                 <h2>RSS Feed</h2>
-                <p>This link is for RSS readers.<br />To subscribe, copy this link into your reader.<br /><br />Would you like to view the raw feed?</p>
+                <p>This link is for RSS readers.<br />To subscribe, click continue to see the raw feed and copy the url into your reader.</p>
                 <div class="rss-buttons">
                     <button class="continue" id="rss-modal-continue">Continue</button>
-                    <button class="cancel" id="rss-modal-cancel" >Cancel</button>
+                    <button class="cancel" id="rss-modal-cancel">Cancel</button>
                 </div>
             </div>
         `;
