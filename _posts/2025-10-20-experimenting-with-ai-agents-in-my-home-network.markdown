@@ -35,14 +35,14 @@ Just as I'm not giving my son the keys to the kingdom and letting him make chang
 
 I'm treating my new AI agents as another human being, and just as you would with a new team member, they need additional guidance and supervision. However unlike in real life, I'm ok with the micro-management and being seen as the all seeing Big-Brother. 
 
-Another aspect of the trust issues I have, is having external commands being run on my network, I run the [n8n](https://n8n.io/) service containerised on the main server, if it goes down, I've lost the very tool that is supposed to tell me it's down. There are more than enough solutions to solve this, but first my trust levels needs to increase to allow this outside of my walled garden - I'm still proving the value.
+Another aspect of the trust issues I have, is having an external entity access and administer my network. However the challenge is I run the [n8n](https://n8n.io/) service containerised on the main server, if it goes down, I've lost the very tool that is supposed to tell me it's down. There are more than enough solutions to solve this, but first my trust levels needs to increase to allow this outside of my walled garden - I'm still proving the value.
 
-All that being said, am I comfortable with an AI agent (let's consider hallucination for a moment) having the ability to make changes to the network and system? No I am not, well, just like a junior member of the team, if you run it past me first I'd be more comfortable.
+All that being said, am I comfortable with an AI agent (let's consider hallucination for a moment) having the ability to make changes to the network and system? **No I am not**, well, just like a junior member of the team, if you run it past me first I'd be more comfortable.
 
 ## Human in the loop – a remedy for anxiety 
 In steps Human-in-the-loop (HIL), this is a process that [n8n](https://n8n.io/) makes super simple, to make sure the AI agent is consulting with me before any changes are made. 
 
-For my workflow I've hooked this up to slack, whenever there is a command it wants to run that makes system or network changes, it has to get explicit approval from me, and it sits and waits until I've given it. Pings a message to my Slack channel with all the details of what it's asking to run and why and I decide from there.
+For my workflows I've hooked this up to slack, whenever there is a command it wants to run that makes system or network changes, it has to get explicit approval from me, and it sits and waits until I've given it. Pings a message to my Slack channel with all the details of what it's asking to run and why and I decide from there.
 
 This is a massive comfort blanket to the trust issues, I can be more confident that it's not going to do irreparable damage. 
 
@@ -53,7 +53,7 @@ Take the patching as a simple example first, previously setting up cron jobs wit
 
 Take a more complex solution - adding mac address filtering on the AP, I wouldn't attempt to automate this, as it is clearly an edge case that seldom happens, so would just handle as they happen. However the save here could be considerable, not only will I save time doing the steps to implement mac address filtering, but I'll not need to invest time in a complex automation ruleset to make it happen in the first place - just a well crafted prompt is all that is needed.
 
-I have one more cherry I'm adding to this eco system, I run a documentation site locally that contains all documentation on how my network is set up and the reasoning behind the vlans etc. As the AI agents make changes, they also need to make sure the documentation is an accurate representation of its state. *Then it will feel like their working for me...*
+I have one more cherry I'm adding to this eco system, I run a documentation site locally that contains all documentation on how my network is set up and the reasoning behind the vlans etc. As the AI agents make changes, they also need to make sure the documentation is an accurate representation of its state - what a time saver. *Then it will feel like their working for me...*
 
 ## What does this mean for the next admin?
 The plan was always to bring my son into the fold to support in maintaining our uptime and increasing my resiliency by starting to look after the network and services. But what will that look like, will it be mainly adopting "prompt engineering" as the core skill, not a bad skill to have, but a worry that he might not understand the commands the AI agent is wishing to run: `rm -rf /` :smiling_imp:. 
