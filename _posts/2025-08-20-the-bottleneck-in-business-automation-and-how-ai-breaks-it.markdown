@@ -54,3 +54,6 @@ By lowering the barrier to entry, AI lets teams' experiment before they even kno
 AI automation won't replace engineering excellence where stability and scale matter. But it will open the door for business users to test, learn, and move faster than they ever could through the traditional requirements pipeline.
 
 It's not about automating perfect systems.<br/>It's about automating possibilities.<br/>And that's the rewiring that changes everything.
+
+## Edit Oct 2025
+I've written a follow up article to this one, where I've spent time implementing AI Agents and working with an automation platform, read it [here](https://stew.andersonuk.org/experimenting-with-ai-agents-in-my-home-network/).
