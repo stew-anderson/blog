@@ -16,7 +16,7 @@ Whilst this still feels odd, I've been working more with AI Agents and the power
 
 In my home network setup, I look after traffic and services that my demanding household needs (which includes two teenage children). They are tough customers, five nines uptime isn't enough, network administration and sysadmin is a full time job in my house :sweat_smile:.
 
-## My Home lab – a full time job
+## My home lab – a full time job
 For obvious reasons I'll not post too many details, but at a high-level my home lab has a hypervisor layer containing a virtualised firewall and a server that runs numerous containers for the different services, as well as a NAS. The network is made up of various vlans for segregation, and multiple access points with associated SSID's for each segregation dotted around the house.
 
 It's as simple as I can make it to keep it reliable and resilient for "the customer" but allows scope to explore, expand and experiment.
@@ -26,7 +26,7 @@ I started exploring the main tasks that I had to complete on a regular basis: up
 Outside of the regular maintenance was the ad-hoc requests that were always more interesting and needed more thought and effort. For example my Son's PlayStation would get attached to the AP furthest away from it in the house and get poor latency. The solution, putting mac address filtering on that AP for the PlayStation is straight forward enough, but needed some re-familiarisation and effectively more of my time to action.
 
 ## Automate automate automate...
-Taking these two examples at the opposite end of the scale, I started playing with [n8n](https://n8n.io/) as the platform, installing it containerised within my network. The speed that I was able to create a workflow that connected and did as I asked was pretty astonishing. $5 credit added to my OpenAI account and we were off :rocket:. 
+Taking these two examples at the opposite end of the scale, I started experimenting with [n8n](https://n8n.io/) as the platform, deploying it containerised within my network. The speed that I was able to create a workflow that connected and did as I asked was pretty astonishing. $5 credit added to my OpenAI account and we were off :rocket:. 
 
 ## The trust layer
 > But with great automation, comes great anxiety <br />– Stew Anderson, 2025
