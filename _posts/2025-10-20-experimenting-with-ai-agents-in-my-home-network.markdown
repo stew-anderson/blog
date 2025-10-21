@@ -23,7 +23,7 @@ It's as simple as I can make it to keep it reliable and resilient for "the custo
 
 I started exploring the main tasks that I had to complete on a regular basis: updating, patching and verifying changes across the server and containers was the most common that could sink the most of my time. 
 
-Outside of the regular maintenance was the ad-hoc requests that were always more interesting and needed more thought and effort. For example my Son's PlayStation would get attached to the AP furthest away from it in the house and get poor latency. The solution, putting mac address filtering on that AP for the PlayStation is straight forward enough, but needed some re-familiarisation and effectively more of my time to action.
+Outside of the regular maintenance was the ad-hoc requests that were always more interesting and needed more thought and effort. For example my Son's PlayStation would get attached to the AP furthest away from it in the house and get poor latency. The solution, putting MAC address filtering on that AP for the PlayStation is straight forward enough, but needed some re-familiarisation and effectively more of my time to action.
 
 ## Automate automate automate...
 Taking these two examples at the opposite end of the scale, I started experimenting with [n8n](https://n8n.io/) as the platform, deploying it containerised within my network. The speed that I was able to create a workflow that connected and did as I asked was pretty astonishing. $5 credit added to my OpenAI account and we were off :rocket:. 
@@ -55,7 +55,7 @@ If I think about the examples I've worked on through my workflows, how would I h
 
 Take the patching as a simple example first, previously setting up cron jobs with logging and notifications on warnings took time I just didn't have, compare that to what I just created that was light speed. Then there is the verification of the services, still needs a sanity check, and is "it's up" enough? Truth be told, when it comes to the home lab it isn't what brings the beans home so it never got a fully fledged solution for automating my patches, it's not difficult to better.
 
-Take a more complex solution - adding mac address filtering on the AP, I wouldn't attempt to automate this, as it is clearly an edge case that seldom happens, so would just handle as they happen. However the save here could be considerable, not only will I save time doing the steps to implement mac address filtering, but I'll not need to invest time in a complex automation ruleset to make it happen in the first place - just a well crafted prompt is all that is needed.
+Take a more complex solution - adding MAC address filtering on the AP, I wouldn't attempt to automate this, as it is clearly an edge case that seldom happens, so would just handle as they happen. However the save here could be considerable, not only will I save time doing the steps to implement MAC address filtering, but I'll not need to invest time in a complex automation ruleset to make it happen in the first place - just a well crafted prompt is all that is needed.
 
 I have one more cherry I'm adding to this ecosystem, I run a documentation site locally that contains all documentation on how my network is set up and the reasoning behind the vlans etc. As the AI agents make changes, they also need to make sure the documentation is an accurate representation of its state - what a time saver.
 
@@ -79,6 +79,6 @@ I've only scratched the surface of what the automations can do with the power of
 
 Wrongly or rightly, I treat the agents like they are humans (I don't think I'm the only one: remember your pleases and thank you's). In this home lab situation, in my mind they have the capability of a seasoned sysadmin with all the experience to boot, but have the mental age of a four year old. It helps me write the prompts to keep them contained to what I want them to do and no more.
 
-This was a follow up post to first exploring the automation platforms, that was one of questioning the logic as a developer. Spending more time I'm an advocate and a promoter, to a point.
+This was a follow up post to first exploring the automation platforms, that was one of questioning the logic as a developer. Spending more time I'm an advocate and a promoter, up to a point.
 
-I'm not hanging up my SSH keys just yet; the overall goal would be to achieve a self healing network in my home lab, but lets not forget the reason I have a home lab in the first place: keeping close to the tech and I still want to keep those skills for a while yet, however one of the new skill I'm sharpening is for the prompt box.
+I'm not hanging up my SSH keys just yet; the overall goal would be to achieve a self healing network in my home lab, but let's not forget the reason I have a home lab in the first place: keeping close to the tech and I still want to keep those skills for a while yet, however one of the new skills I'm sharpening is for the prompt box.
