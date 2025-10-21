@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Experimenting with AI agents in my home network"
-date: "2025-10-22 00:00:00 +0000"
+date: "2025-10-20 00:00:00 +0000"
 description: "Experimenting with AI Agents in my home lab, and what that's taught me about trust, control, and automation."
 img: "experimenting-with-ai-agents-in-my-home-network.jpg"
 tags: ["AI", "Home Lab"]
@@ -40,9 +40,13 @@ Another aspect of the trust issues I have, is having an external entity access a
 All that being said, am I comfortable with an AI agent (let's consider hallucination for a moment) having the ability to make changes to the network and system? **No I am not**, well, just like a junior member of the team, if you run it past me first I'd be more comfortable.
 
 ## Human in the loop – a remedy for anxiety 
+<img class="right" src="{{site.baseUrl}}/assets/img/slack-2025-10-20.png" alt="Slack message requesting approval for action">
+
 In steps Human-in-the-loop (HIL), this is a process that [n8n](https://n8n.io/) makes super simple, to make sure the AI agent is consulting with me before any changes are made. 
 
-For my workflows I've hooked this up to slack, whenever there is a command it wants to run that makes system or network changes, it has to get explicit approval from me, and it sits and waits until I've given it. Pings a message to my Slack channel with all the details of what it's asking to run and why and I decide from there.
+For my workflows I've hooked this up to slack, whenever there is a command it wants to run that makes system or network changes, it has to get explicit approval from me, and it sits and waits until I've given it. It drops me a message to my Slack channel with all the details of what it's asking to run and why and I decide from there. 
+
+As you can see from the screenshot, it tends to be an iterative approach, but again, this is because I want to know everything it's running.
 
 This is a massive comfort blanket to the trust issues, I can be more confident that it's not going to do irreparable damage. 
 
@@ -53,17 +57,25 @@ Take the patching as a simple example first, previously setting up cron jobs wit
 
 Take a more complex solution - adding mac address filtering on the AP, I wouldn't attempt to automate this, as it is clearly an edge case that seldom happens, so would just handle as they happen. However the save here could be considerable, not only will I save time doing the steps to implement mac address filtering, but I'll not need to invest time in a complex automation ruleset to make it happen in the first place - just a well crafted prompt is all that is needed.
 
-I have one more cherry I'm adding to this eco system, I run a documentation site locally that contains all documentation on how my network is set up and the reasoning behind the vlans etc. As the AI agents make changes, they also need to make sure the documentation is an accurate representation of its state - what a time saver.
+I have one more cherry I'm adding to this ecosystem, I run a documentation site locally that contains all documentation on how my network is set up and the reasoning behind the vlans etc. As the AI agents make changes, they also need to make sure the documentation is an accurate representation of its state - what a time saver.
 
 ## What does this mean for the next admin?
 The plan was always to bring my son into the fold to support in maintaining our uptime and increasing my resiliency by starting to look after the network and services. But what will that look like, will it be mainly adopting "prompt engineering" as the core skill, not a bad skill to have, but a worry that he might not understand the commands the AI agent is wishing to run: `rm -rf /` :smiling_imp:. 
 
-Also, will he miss the skills of SSH'ing into a box and debugging what is happening. Well, no, as that's where I'll start him, but those skills will erode over time.
+Also, will he miss the skills of SSH'ing into a box and debugging what is happening. Well, no, as that's where I'll start him, but those skills will erode over time if not exercised.
 
-But this is a matter of skills atrophy that is a bigger concern and feels like it should be another follow up to this post, as it's the risk to the developers of tomorrow (actually maybe today).
+## What you should actually do about this
+If you are running any kind of infrastructure, be that a home lab like me, a small business or enterprise environment, here's what I'd recommend based on my experiments.
+
+* Start small and constrained, pick just one annoying repetitive task that eats time but isn't mission-critical.
+* Human in the loop from day one, don't wait until you trust it, start with approvals for everything. It's easier to relax the controls then having to tighten them up after something goes wrong.
+* Prompt engineering is just like writing watertight playbooks. You wouldn't give a junior admin root and ask them to "work it out".
+* Keep the skills in check. It will do something unexpected, you need to make sure you and the team have the skills to remedy and resolve.
+
+You or your team is starting the shift from execution to oversight, you are no longer the person running the commands, you are the person deciding what commands to be run, it's a different skill we need to continually develop.
 
 ## Closing thoughts
-I've only scratched the surface of what the automations can do with the power of AI agents, I've found it is an investment like a new team member, I have to walk through the scenarios and think ahead on how I want the agent to behave and describe this to give it guardrails. To this end I've found the real skill is the prompts and making it clear what the agent can and cannot do. This approach also means the edge cases are a future state to cross later once my confidence in the agent not nuking my network has increased and I can provide even more autonomy. 
+I've only scratched the surface of what the automations can do with the power of AI agents, I've found it is an investment like a new team member, I have to walk through the scenarios and think ahead on how I want the agent to behave and describe this to give it guardrails. To this end the real skill is the prompts and making it clear what the agent can and cannot do. This approach also means the edge cases are a future state to cross later once my confidence in the agent not nuking my network has increased and I can provide even more autonomy. 
 
 Wrongly or rightly, I treat the agents like they are humans (I don't think I'm the only one: remember your pleases and thank you's). In this home lab situation, in my mind they have the capability of a seasoned sysadmin with all the experience to boot, but have the mental age of a four year old. It helps me write the prompts to keep them contained to what I want them to do and no more.
 

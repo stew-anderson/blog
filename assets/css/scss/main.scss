@@ -34,6 +34,10 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
+img.right {
+    margin-left: 20px;
+    float: right;
+}
 
 img + em {
   text-align: center;

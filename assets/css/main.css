@@ -1,3 +1,7 @@
+/**
+  * Main SCSS file  
+  * v1.0.3
+  */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -632,6 +636,11 @@ img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
+}
+
+img.right {
+  margin-left: 20px;
+  float: right;
 }
 
 img + em {
