@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Experimenting with AI agents in my home network"
-date: "2025-10-20 00:00:00 +0000"
+date: "2025-10-22 00:00:00 +0000"
 description: "Experimenting with AI Agents in my home lab, and what that's taught me about trust, control, and automation."
 img: "experimenting-with-ai-agents-in-my-home-network.jpg"
 tags: ["AI", "Home Lab"]
@@ -29,7 +29,7 @@ Outside of the regular maintenance was the ad-hoc requests that were always more
 Taking these two examples at the opposite end of the scale, I started experimenting with [n8n](https://n8n.io/) as the platform, deploying it containerised within my network. The speed that I was able to create a workflow that connected and did as I asked was pretty astonishing. $5 credit added to my OpenAI account and we were off :rocket:. 
 
 ## The trust layer
-> But with great automation, comes great anxiety <br />– Stew Anderson, 2025
+But with great automation, comes great anxiety.
 
 Just as I'm not giving my son the keys to the kingdom and letting him make changes on the network, there has been a large hurdle for me to allow another entity to even look at the details of my home lab (it's a personal thing).
 
@@ -53,7 +53,7 @@ Take the patching as a simple example first, previously setting up cron jobs wit
 
 Take a more complex solution - adding mac address filtering on the AP, I wouldn't attempt to automate this, as it is clearly an edge case that seldom happens, so would just handle as they happen. However the save here could be considerable, not only will I save time doing the steps to implement mac address filtering, but I'll not need to invest time in a complex automation ruleset to make it happen in the first place - just a well crafted prompt is all that is needed.
 
-I have one more cherry I'm adding to this eco system, I run a documentation site locally that contains all documentation on how my network is set up and the reasoning behind the vlans etc. As the AI agents make changes, they also need to make sure the documentation is an accurate representation of its state - what a time saver. *Then it will feel like their working for me...*
+I have one more cherry I'm adding to this eco system, I run a documentation site locally that contains all documentation on how my network is set up and the reasoning behind the vlans etc. As the AI agents make changes, they also need to make sure the documentation is an accurate representation of its state - what a time saver.
 
 ## What does this mean for the next admin?
 The plan was always to bring my son into the fold to support in maintaining our uptime and increasing my resiliency by starting to look after the network and services. But what will that look like, will it be mainly adopting "prompt engineering" as the core skill, not a bad skill to have, but a worry that he might not understand the commands the AI agent is wishing to run: `rm -rf /` :smiling_imp:. 
@@ -67,6 +67,6 @@ I've only scratched the surface of what the automations can do with the power of
 
 Wrongly or rightly, I treat the agents like they are humans (I don't think I'm the only one: remember your pleases and thank you's). In this home lab situation, in my mind they have the capability of a seasoned sysadmin with all the experience to boot, but have the mental age of a four year old. It helps me write the prompts to keep them contained to what I want them to do and no more.
 
-This was a follow up post to first exploring the automation platforms, that was one of questioning the logic as a developer. Spending more time I'm an advocate and a promoter.
+This was a follow up post to first exploring the automation platforms, that was one of questioning the logic as a developer. Spending more time I'm an advocate and a promoter, to a point.
 
 I'm not hanging up my SSH keys just yet; the overall goal would be to achieve a self healing network in my home lab, but lets not forget the reason I have a home lab in the first place: keeping close to the tech and I still want to keep those skills for a while yet, however one of the new skill I'm sharpening is for the prompt box.
