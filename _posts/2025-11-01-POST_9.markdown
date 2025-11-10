@@ -1,0 +1,13 @@
+---
+layout: "post"
+title: "Title tbc"
+date: "2025-11-01 00:00:00 +0000"
+description: "descr."
+img: "POST_9.jpg"
+tags: ["AI", "Home Lab"]
+unsplashphotographer: "Mike Cox"
+unsplashuser: "@iprefermike"
+unsplashimage: "a-woman-running-on-a-treadmill-in-a-gym-06EpjZiMz_E"
+---
+
+in draft
