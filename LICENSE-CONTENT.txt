@@ -1,0 +1,169 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Creative Commons Corporation is not a law firm and does not provide legal
+services or legal advice. Distribution of Creative Commons public licenses does
+not create a lawyer-client relationship. Creative Commons makes its public
+license documents and related information available on an "as-is" basis. Creative
+Commons gives no warranties regarding its public licenses, including, but not
+limited to, their accuracy or completeness. Creative Commons disclaims all
+liability for damages resulting from their use.
+
+You are free to:
+
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material
+  for any purpose, even commercially.
+
+The licensor cannot revoke these freedoms as long as you follow the license
+terms.
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your
+  use.
+
+  No additional restrictions — You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license
+  permits.
+
+Notices:
+
+  You do not have to comply with the license for elements of the material in
+  the public domain or where your use is permitted by an applicable exception
+  or limitation.
+
+  No warranties are given. The license may not give you all of the
+  permissions necessary for your intended use. For example, other rights such
+  as publicity, privacy, or moral rights may limit how you use the material.
+
+Full legal text:
+
+CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL
+ADVICE. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN ATTORNEY-CLIENT
+RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS" BASIS.
+
+THE OWNER OF COPYRIGHT AND/OR RELATED RIGHTS (THE "LICENSOR") GRANTS YOU THE
+FOLLOWING RIGHTS SUBJECT TO THE TERMS AND CONDITIONS OF THIS LICENSE.
+
+1. Definitions.
+
+  a. Adapted Material means material subject to Copyright and Similar Rights
+  that is derived from or based upon the Licensed Material and in which the
+  Licensed Material is translated, altered, arranged, transformed, or otherwise
+  modified in a manner requiring permission under the Copyright and Similar
+  Rights held by the Licensor. For purposes of this License, where the
+  Licensed Material is a musical work, performance, or sound recording, Adapted
+  Material is always produced where the Licensed Material is synched in
+  timed-relation with a moving image.
+
+  b. Adapter's License means the license You apply to Your Copyright and
+  Similar Rights in Your contributions to Adapted Material in accordance with
+  the terms and conditions of this License.
+
+  c. BY-SA Compatible License means a license listed at
+  https://creativecommons.org/compatiblelicenses that is compatible with the
+  BY-SA element of this License.
+
+  d. Copyright and Similar Rights means copyright and/or similar rights
+  closely related to copyright including, without limitation, performance,
+  publicity, moral rights, neighboring rights, rights protecting against
+  unfair competition, and sui generis database rights, whether existing now
+  or acquired in the future, and whether vested or contingent.
+
+  e. Effective Technological Measures means those measures that, in the
+  absence of proper authority, may not be circumvented under laws fulfilling
+  obligations under Article 11 of the WIPO Copyright Treaty adopted on
+  December 20, 1996, and/or similar international agreements.
+
+  f. Exceptions and Limitations means fair use, fair dealing, and/or any
+  other exception or limitation to Copyright and Similar Rights that applies
+  to Your use of the Licensed Material.
+
+  g. Licensed Material means the artistic or literary work, database, or
+  other material to which the Licensor applied this Public License.
+
+  h. Licensed Rights means the rights granted to You subject to the terms and
+  conditions of this Public License, which are limited to all Copyright and
+  Similar Rights that apply to Your use of the Licensed Material and that
+  the Licensor has authority to license.
+
+  i. Licensor means the individual(s) or entity(ies) granting rights under
+  this Public License.
+
+  j. NonCommercial means not primarily intended for or directed towards
+  commercial advantage or monetary compensation. For purposes of this
+  Public License, the exchange of the Licensed Material for other material
+  by digital file-sharing or similar means is NonCommercial provided there is
+  no payment of monetary compensation in connection with the exchange.
+
+  k. Share means to provide material to the public by any means or process
+  that requires permission under the Licensed Rights, such as reproduction,
+  public display, public performance, distribution, dissemination, communication,
+  or importation, and to make material available to the public including in ways
+  that members of the public may access the material from a place and at a time
+  individually chosen by them.
+
+  l. Sui Generis Database Rights means rights other than copyright resulting
+  from Directive 96/9/EC of the European Parliament and of the Council of 11
+  March 1996 on the legal protection of databases, as amended and
+  updated, as well as other essentially equivalent rights anywhere in the
+  world.
+
+  m. You means the individual or entity exercising the Licensed Rights under
+  this Public License. Your has a corresponding meaning.
+
+2. Fair Dealing Rights. Nothing in this Public License is intended to reduce,
+limit, or restrict any uses free from copyright or rights arising from an
+applicable exception or limitation.
+
+3. License Grant. Subject to the terms and conditions of this Public License,
+unless the Licensed Rights have been terminated under Section 6(a), the
+Licensor grants You a worldwide, royalty-free, non-sublicensable,
+non-exclusive, irrevocable license to exercise the Licensed Rights in the
+Licensed Material to:
+
+  a. reproduce and Share the Licensed Material, in whole or in part; and
+
+  b. produce, reproduce, and Share Adapted Material.
+
+  The above rights may be exercised in all media and formats whether now known
+  or hereafter created. The above rights include the right to make such
+  modifications as are technically necessary to exercise the rights in other
+  media and formats. Subject to Section 4(f), all rights not expressly granted
+  by the Licensor are deemed reserved.
+
+4. Restrictions. The license granted in Section 3 is expressly made subject to
+and limited by the following restrictions:
+
+  a. Attribution. If You Share the Licensed Material (including in modified
+  form), You must include the following information if it is supplied by the
+  Licensor with the Licensed Material:
+
+    i. identification of the creator(s) of the Licensed Material and any
+    others designated to receive attribution, in a reasonable manner based on
+    the medium, means, and context in which You Share the Licensed Material.
+
+    ii. a copyright notice;
+
+    iii. a notice that refers to this Public License (which includes a
+    hyperlink to the license for online uses);
+
+    iv. a notice that refers to the disclaimer of warranties;
+
+    v. a URI or hyperlink to the licensed material to the extent reasonably
+    practicable;
+
+    vi. if the Licensed Material includes a reference to a repository where
+    the material is stored, a URI or hyperlink to that repository, if
+    reasonably practicable; and
+
+    vii. indicate if You modified the Licensed Material and retain an
+    indication of the previous modifications. The combined elements listed in
+  Section 4(a)(i)–(vii) are referred to in this Public License as the
+  "Attribution".
+
+[...truncated for brevity in file preview - full legal code included in the file] 
+
+For the complete legal code visit https://creativecommons.org/licenses/by/4.0/legalcode
