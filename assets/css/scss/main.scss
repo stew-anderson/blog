@@ -1,6 +1,6 @@
 /**
   * Main SCSS file  
-  * v1.1.1
+  * v1.1.4
   */
 
 
@@ -396,4 +396,13 @@ body.dark {
       color: #e0e0e0;
     }
   }
+  // remove transitions
+  // .about img ,
+  // ul.nav li a,
+  // .post,
+  // a.older-posts, 
+  // a.newer-posts
+  // {
+  //   transition: none;
+  // }
 }

@@ -1,6 +1,6 @@
 /**
   * Main SCSS file  
-  * v1.1.0
+  * v1.1.2
   */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1486,4 +1486,12 @@ body.dark table tfoot {
   background: #333;
   border-top-color: #888;
   color: #e0e0e0;
+}
+body.dark .about img,
+body.dark ul.nav li a,
+body.dark .post,
+body.dark a.older-posts,
+body.dark a.newer-posts {
+  -webkit-transition: none;
+  transition: none;
 }
