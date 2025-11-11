@@ -9,10 +9,8 @@
     'use strict';
 
     // namespace for dark mode functionality
-    var darkMode = darkMode || {};
-
-    // stored value: 'dark' or 'light'
-    darkMode.STORAGE_KEY = 'color-scheme'; 
+    var darkMode = darkMode || {},
+        STORAGE_KEY = 'color-scheme'; // stored value: 'dark' or 'light'
 
     /**
      * set
@@ -77,11 +75,21 @@
 
 
     // load when run
-    if (document.readyState === 'loading') {
-		document.addEventListener('DOMContentLoaded', function () { 
-            darkMode.init(); 
+    document.addEventListener('DOMContentLoaded', function () { 
+        
+        var darkModeToggle;
+
+        darkModeToggle = document.getElementById('darkMode');  
+
+        console.log(darkModeToggle);
+
+        darkModeToggle.addEventListener('click', function (e) {
+
+            e.preventDefault();
+            darkMode.toggle();
         });
-	} else {
-		darkMode.init();
-	}
-});
+
+        // run init to set mode on page load
+        darkMode.init(); 
+    });
+})();
