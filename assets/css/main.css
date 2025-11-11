@@ -1216,10 +1216,8 @@ a.newer-posts:hover {
   font-size: 30px;
   text-align: center;
   line-height: 1.3;
-  color: #263959;
 }
 .blog-tags h2 {
-  color: #263959;
   margin: 10px 0;
 }
 
@@ -1364,12 +1362,8 @@ a.newer-posts:hover {
 }
 /* - - - - - - - - - - Dark mode overrides - - - - - - - - - - */
 .dark-toggle {
-  position: absolute;
-  top: 10px;
-  left: 10px;
   text-decoration: none;
   cursor: pointer;
-  color: #9f9f9f;
 }
 
 body.light .dark-toggle .dark {
@@ -1400,6 +1394,26 @@ body.dark blockquote {
   color: #e0e0e0;
   background-color: #121212;
 }
+body.dark .search-page .search-input {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #333;
+}
+body.dark .search-page .search-input::-webkit-input-placeholder {
+  color: #888;
+}
+body.dark .search-page .search-input::-moz-placeholder {
+  color: #888;
+}
+body.dark .search-page .search-input:-ms-input-placeholder {
+  color: #888;
+}
+body.dark .search-page .search-input::-ms-input-placeholder {
+  color: #888;
+}
+body.dark .search-page .search-input::placeholder {
+  color: #888;
+}
 body.dark .dark-toggle .dark {
   display: none;
 }
@@ -1428,13 +1442,18 @@ body.dark .page-footer .page-share a {
   border-color: #333;
   background-color: #1e1e1e;
 }
+body.dark .tags li a,
 body.dark .page-footer .page-tag a {
   color: #e0e0e0;
   border-color: #333;
   background-color: #1e1e1e;
 }
+body.dark .tags li a:hover,
 body.dark .page-footer .page-tag a:hover {
   background-color: #333;
+}
+body.dark .blog-tags {
+  background: #1e1e1e;
 }
 body.dark .highlighter-rouge {
   border-color: #333;

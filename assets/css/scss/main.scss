@@ -266,12 +266,8 @@ table tfoot td {
 /* - - - - - - - - - - Dark mode overrides - - - - - - - - - - */
 
 .dark-toggle {
-  position: absolute;
-  top: 10px;
-  left: 10px;
   text-decoration: none;
   cursor: pointer;
-  color: #9f9f9f;
 }
 // when in light
 body.light {
@@ -302,6 +298,15 @@ body.dark {
     border-left-color: #b35700;
     color: #e0e0e0;
     background-color: #121212
+  }
+  .search-page .search-input {
+    background: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+
+    &::placeholder {
+      color: #888;
+    }
   }
   // toggle buttons
   .dark-toggle .dark {
@@ -341,6 +346,7 @@ body.dark {
     background-color: #1e1e1e;
   }
   // tags
+  .tags li a,
   .page-footer .page-tag a {
     color: #e0e0e0;
     border-color: #333;
@@ -349,6 +355,10 @@ body.dark {
     &:hover {
       background-color: #333;
     }
+  }
+  // tags page
+  .blog-tags{
+    background: #1e1e1e;
   }
   .highlighter-rouge {
     border-color: #333;
