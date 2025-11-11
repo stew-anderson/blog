@@ -32,7 +32,6 @@
 			localStorage.setItem(STORAGE_KEY, scheme);
 		} catch (e) {
 			// ignore storage errors (e.g., privacy mode)
-            console.log(e)
 		}
 	};
 
@@ -77,13 +76,11 @@
     // load when run
     document.addEventListener('DOMContentLoaded', function () { 
         
-        var darkModeToggle;
+        var toggleButton;
 
-        darkModeToggle = document.getElementById('darkMode');  
+        toggleButton = document.getElementById('darkMode');  
 
-        console.log(darkModeToggle);
-
-        darkModeToggle.addEventListener('click', function (e) {
+        toggleButton.addEventListener('click', function (e) {
 
             e.preventDefault();
             darkMode.toggle();
