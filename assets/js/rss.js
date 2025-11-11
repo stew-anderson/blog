@@ -1,5 +1,5 @@
 /**
- * main.js
+ * rss.js
  * 
  * RSS Feed Modal functionality.
  * 
@@ -7,7 +7,7 @@
  * warning users that the link is for RSS readers and offering
  * to continue to the raw feed or cancel.
  */
-(function() { 
+(function () { 
     'use strict';
 
     // Namespace for RSS modal functionality
