@@ -53,10 +53,12 @@ I run my own JIRA board, and have a "Research column" exactly for this. I gather
 An example that I've pushed up the priority list is, of course, AI cli tooling, where it can streamline processes and workflows (side win: just getting it to summarise what's changed for a commit message). That's not surprising either, as AI, agents and techniques are plentiful in that column, but also they all seem to be accelerating up the priority list.
 
 ### Switching from "nice to know" to "need to know NOW"
-These are the triggers that move that tech up the priority list:
+That works for planned learning. But not everything waits for the backlog. Sometimes the decision gets forced:
 - Industry shift that affects your product.
 - Team is proposing a new technology.
+- Security vulnerability or compliance requirement.
 - You need to make an architectural decision.
+- Technical debt reaches breaking point. 
 
 ### Fast learning techniques
 Adopting Just-in-time learning doesn't mean you've suddenly found a heap of time to do it. Scanning the documentation can tell you enough without delving in too deeply. Alternatively, where needed, building a small PoC helps visualise it with your own context; however it needs to be timeboxed to 1 or 2 hours max, or it can quickly become a time-sink.
