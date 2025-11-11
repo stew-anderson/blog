@@ -1,6 +1,6 @@
 /**
   * Main SCSS file  
-  * v1.0.3
+  * v1.1.0
   */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1364,8 +1364,12 @@ a.newer-posts:hover {
 }
 /* - - - - - - - - - - Dark mode overrides - - - - - - - - - - */
 .dark-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
   text-decoration: none;
   cursor: pointer;
+  color: #9f9f9f;
 }
 
 body.light .dark-toggle .dark {
@@ -1379,9 +1383,15 @@ body.dark {
   background-color: #121212;
   color: #e0e0e0;
 }
+body.dark .wrap-content a,
+body.dark .post-title a,
+body.dark .post .post-content a,
 body.dark a {
   color: #fac49f;
 }
+body.dark .wrap-content a:hover,
+body.dark .post-title a:hover,
+body.dark .post .post-content a:hover,
 body.dark a:hover {
   color: #b35700;
 }
@@ -1395,6 +1405,17 @@ body.dark .dark-toggle .dark {
 }
 body.dark .dark-toggle .light {
   display: inline;
+}
+body.dark .rss-modal .rss-inner {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+body.dark .rss-modal .continue {
+  background: #333;
+  color: #e0e0e0;
+}
+body.dark .rss-modal .continue:hover {
+  background: #555;
 }
 body.dark .contact .contact-title {
   color: #e0e0e0;
@@ -1426,9 +1447,7 @@ body.dark .article-page {
 }
 body.dark ul.nav li a,
 body.dark .about .author-name,
-body.dark .post-title a,
-body.dark .article-page-title a,
-body.dark .post .post-content a {
+body.dark .article-page-title a {
   color: #e0e0e0;
 }
 body.dark table {

@@ -20,7 +20,7 @@ layout: default
 
   <footer>
     <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
+      <h3 class="contact-title">links</h3>
       <ul class="nav">
         {% if site.social-github %}
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -30,12 +30,6 @@ layout: default
         {% endif %}
           <li><a href="{{site.baseurl}}/about/"><i class="fa fa-user-circle-o"></i></a></li>
           <li><a href="{{site.baseurl}}/feed.xml" id="rss-link"><i class="fa fa-rss"></i></a></li>
-          <li>
-            <a href="#" id="darkMode" class="dark-toggle">
-              <i class="dark fa fa-moon-o"></i>
-              <i class="light fa fa-sun-o"></i>
-            </a>
-          </li>
       </ul>
     </section>
     <div class="copyright">
@@ -46,3 +40,8 @@ layout: default
 <div class="content-box clearfix">
   {{ content }}
 </div>
+
+<a href="#" id="darkMode" class="dark-toggle">
+  <i class="dark fa fa-moon-o"></i>
+  <i class="light fa fa-sun-o"></i>
+</a>

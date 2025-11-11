@@ -266,8 +266,12 @@ table tfoot td {
 /* - - - - - - - - - - Dark mode overrides - - - - - - - - - - */
 
 .dark-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
   text-decoration: none;
   cursor: pointer;
+  color: #9f9f9f;
 }
 // when in light
 body.light {
@@ -284,6 +288,9 @@ body.dark {
   color: #e0e0e0;
 
   // catch all text colours
+  .wrap-content a,
+  .post-title a,
+  .post .post-content a,
   a {
     color: #fac49f;
 
@@ -302,6 +309,21 @@ body.dark {
   }
   .dark-toggle .light {
     display: inline;
+  }
+  // rss modal
+  .rss-modal{
+    .rss-inner {
+        background: #1e1e1e;
+        color: #e0e0e0;
+    }
+    .continue {
+      background: #333;
+      color: #e0e0e0;
+
+      &:hover {
+        background: #555;
+      }
+    }
   }
   // contact section
   .contact .contact-title {
@@ -341,9 +363,7 @@ body.dark {
   // font colours
   ul.nav li a,
   .about .author-name,
-  .post-title a, 
-  .article-page-title a,
-  .post .post-content a {
+  .article-page-title a {
     color: #e0e0e0;
   }
   // table joys
