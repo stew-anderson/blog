@@ -829,6 +829,35 @@ table tfoot td {
   background: rgb(212.5, 212.5, 212.5);
 }
 
+/* - - - - - - - - - - Pagination - - - - - - - - - - */
+.pagination {
+  text-align: center;
+  margin: 2rem 0;
+}
+.pagination ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  gap: 1rem;
+}
+.pagination li {
+  display: inline;
+}
+.pagination a {
+  text-decoration: none;
+  color: #515151;
+  font-size: 1.2rem;
+}
+.pagination a:hover {
+  color: rgb(55.5, 55.5, 55.5);
+}
+.pagination .page-number {
+  font-size: 1rem;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;
