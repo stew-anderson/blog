@@ -2,7 +2,7 @@
 layout: "post"
 title: "How I stay current as a tech leader without burning out"
 date: "2025-11-10 00:00:00 +0000"
-description: "descr."
+description: "I tried to learn every technology my six teams used and nearly burned out. Here's how I shifted from just-in-case learning to just-in-time strategy."
 img: "how-i-stay-current-as-a-tech-leader-without-burning-out.jpg"
 tags: ["Leadership", "Learning", "Burnout", "Strategy", "AI"]
 unsplashphotographer: "Mike Cox"
