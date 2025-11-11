@@ -23,10 +23,12 @@
      */
      darkMode.set = function (scheme) {
 
+        var bodyclass = document.body.classList;
+
 		if (!scheme) return;
 
-		document.body.classList.remove('dark', 'light');
-		document.body.classList.add(scheme);
+		bodyclass.remove('dark', 'light');
+		bodyclass.add(scheme);
 		
         try {
 			localStorage.setItem(STORAGE_KEY, scheme);
@@ -44,7 +46,7 @@
     darkMode.get = function () {
 		
         try {
-			return localStorage.getItem(STORAGE_KEY);
+			return localStorage.getItem(STORAGE_KEY) || 'light';
 		} catch (e) {
 			return 'light';
 		}
