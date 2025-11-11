@@ -60,3 +60,17 @@ bundle exec jekyll serve --baseurl=""
 - [LinkedIn](https://www.linkedin.com/in/stewart-anderson-095bb634/)
 
 ---
+
+## License
+
+This repository uses two different licenses depending on the type of material:
+
+- Code (source files) — GNU General Public License v3.0 (GPLv3). See `LICENSE-CODE.txt` for the license text and details.
+- Content (blog posts, images, and other creative content) — Creative Commons Attribution 4.0 International (CC BY 4.0). See `LICENSE-CONTENT.txt` for the full legal code.
+
+Please follow the terms of the applicable license when reusing material from this repository. In brief:
+
+- GPLv3: if you redistribute or modify the code, you must license the derivative work under the same GPLv3 terms and provide source.
+- CC BY 4.0: you may share and adapt content as long as you provide appropriate attribution.
+
+If you need clarification about which license applies to a specific file, ask or raise an issue and I'll clarify.
