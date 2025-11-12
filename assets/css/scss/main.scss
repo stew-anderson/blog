@@ -415,12 +415,12 @@ body.dark {
     }
   }
   // remove transitions
-  // .about img ,
-  // ul.nav li a,
-  // .post,
-  // a.older-posts, 
-  // a.newer-posts
-  // {
-  //   transition: none;
-  // }
+  .about img ,
+  ul.nav li a,
+  .post,
+  a.older-posts, 
+  a.newer-posts
+  {
+    transition: none;
+  }
 }
