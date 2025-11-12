@@ -7,35 +7,28 @@
 
         <h1 class="page-title">Suggested posts</h1>
 
-        <div class="post">
-          <a class="post-thumbnail" style="background-image: url('/assets/img/about-me.jpg')" href="#"></a>
-          <div class="post-content">
-            <h2 class="post-title"><a href="#">How I stay current as a tech leader without burning out</a></h2>
-            <p>The treadmill that never stops I was six months into my new leadership role when I realised I'd made a terrible mistake... <a href="#">Read more</a></p>
-            <span class="post-date">01 Jan 1900&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-            <span class="post-words">100 minute read</span>
-          </div>
-        </div>
+        <!-- add OR in tag match -->
 
-        <div class="post">
-          <a class="post-thumbnail" style="background-image: url('/assets/img/about-me.jpg')" href="#"></a>
-          <div class="post-content">
-            <h2 class="post-title"><a href="#">Experimenting with AI agents in my home network</a></h2>
-            <p>I recently wrote a blog post about how a bottleneck in automation can be overcome with AI. In that post I argued... <a href="#">Read more</a></p>
-            <span class="post-date">01 Jan 1900&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-            <span class="post-words">100 minute read</span>
+        {% assign related = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[0]" | slice: 0, 3 %}
+        {% if related.size > 0 %}
+          {% for post in related %}
+          <div class="post">
+            {% if post.img %}
+            <a class="post-thumbnail" style="background-image: url('{{ site.baseurl }}/assets/img/{{ post.img }}')" href="{{ post.url | prepend: site.baseurl }}"></a>
+            {% else %}
+            <a class="post-thumbnail" style="background-image: url('{{ site.baseurl }}/assets/img/about-me.jpg')" href="{{ post.url | prepend: site.baseurl }}"></a>
+            {% endif %}
+            <div class="post-content">
+              <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+              <p>{{ post.excerpt | strip_html | truncatewords: 25 }} <a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+              <span class="post-date">{{ post.date | date: '%Y, %b %d' }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+              <span class="post-words">{% assign words = post.content | split: ' ' | size %}{{ words | divided_by: 200 | plus: 1 }} minute read</span>
+            </div>
           </div>
-        </div>
-
-        <div class="post">
-          <a class="post-thumbnail" style="background-image: url('/assets/img/about-me.jpg')" href="#"></a>
-          <div class="post-content">
-            <h2 class="post-title"><a href="#">Why moving fast means thinking slow</a></h2>
-            <p>n a world of enterprise tech, pace is mistaken for progress. We move fast because everyone and everything else is. If I...  <a href="#">Read more</a></p>
-            <span class="post-date">01 Jan 1900&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-            <span class="post-words">100 minute read</span>
-          </div>
-        </div>
+          {% endfor %}
+        {% else %}
+          <p>No related posts found.</p>
+        {% endif %}
 
       </div>
   </div>
