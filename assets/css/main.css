@@ -1,6 +1,6 @@
 /**
   * Main SCSS file  
-  * v1.0.3
+  * v1.1.4
   */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -858,6 +858,29 @@ table tfoot td {
   font-size: 1rem;
 }
 
+/* - - - - - - - - - - tooltips - - - - - - - - - - */
+a[data-tooltip] {
+  position: relative;
+}
+
+a[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  pointer-events: none;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;
@@ -1216,10 +1239,8 @@ a.newer-posts:hover {
   font-size: 30px;
   text-align: center;
   line-height: 1.3;
-  color: #263959;
 }
 .blog-tags h2 {
-  color: #263959;
   margin: 10px 0;
 }
 
@@ -1361,4 +1382,139 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
+}
+/* - - - - - - - - - - Dark mode overrides - - - - - - - - - - */
+.dark-toggle {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body.light .dark-toggle .dark {
+  display: inline;
+}
+body.light .dark-toggle .light {
+  display: none;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+body.dark .wrap-content a,
+body.dark .post-title a,
+body.dark .post .post-content a,
+body.dark a {
+  color: #fac49f;
+}
+body.dark .wrap-content a:hover,
+body.dark .post-title a:hover,
+body.dark .post .post-content a:hover,
+body.dark a:hover {
+  color: #b35700;
+}
+body.dark blockquote {
+  border-left-color: #b35700;
+  color: #e0e0e0;
+  background-color: #121212;
+}
+body.dark .search-page .search-input {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #333;
+}
+body.dark .search-page .search-input::-webkit-input-placeholder {
+  color: #888;
+}
+body.dark .search-page .search-input::-moz-placeholder {
+  color: #888;
+}
+body.dark .search-page .search-input:-ms-input-placeholder {
+  color: #888;
+}
+body.dark .search-page .search-input::-ms-input-placeholder {
+  color: #888;
+}
+body.dark .search-page .search-input::placeholder {
+  color: #888;
+}
+body.dark .dark-toggle .dark {
+  display: none;
+}
+body.dark .dark-toggle .light {
+  display: inline;
+}
+body.dark .rss-modal .rss-inner {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+body.dark .rss-modal .continue {
+  background: #333;
+  color: #e0e0e0;
+}
+body.dark .rss-modal .continue:hover {
+  background: #555;
+}
+body.dark .contact .contact-title {
+  color: #e0e0e0;
+}
+body.dark .contact .contact-title:before, body.dark .contact .contact-title:after {
+  background-color: #e0e0e0;
+}
+body.dark .page-footer .page-share a {
+  color: #e0e0e0;
+  border-color: #333;
+  background-color: #1e1e1e;
+}
+body.dark .tags li a,
+body.dark .page-footer .page-tag a {
+  color: #e0e0e0;
+  border-color: #333;
+  background-color: #1e1e1e;
+}
+body.dark .tags li a:hover,
+body.dark .page-footer .page-tag a:hover {
+  background-color: #333;
+}
+body.dark .blog-tags {
+  background: #1e1e1e;
+}
+body.dark .highlighter-rouge {
+  border-color: #333;
+  background-color: #1e1e1e;
+}
+body.dark .sidebar,
+body.dark .post,
+body.dark .article-page {
+  background-color: #1e1e1e;
+}
+body.dark ul.nav li a,
+body.dark .about .author-name,
+body.dark .article-page-title a {
+  color: #e0e0e0;
+}
+body.dark table {
+  border-color: #333;
+  background-color: #1e1e1e;
+}
+body.dark table tr:nth-child(even) {
+  background: #2a2a2a;
+}
+body.dark table th, body.dark table td {
+  border-color: #333;
+}
+body.dark table thead {
+  border-bottom-color: #555555;
+}
+body.dark table tfoot {
+  background: #333;
+  border-top-color: #888;
+  color: #e0e0e0;
+}
+body.dark .about img,
+body.dark ul.nav li a,
+body.dark .post,
+body.dark a.older-posts,
+body.dark a.newer-posts {
+  -webkit-transition: none;
+  transition: none;
 }
