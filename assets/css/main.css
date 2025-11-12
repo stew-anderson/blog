@@ -734,6 +734,9 @@ table tfoot td {
 .post, .article-page {
   background-color: #fff;
 }
+.post.top, .article-page.top {
+  margin-top: 30px;
+}
 
 .search-page {
   width: 100%;
@@ -879,6 +882,19 @@ a[data-tooltip]:hover::after {
   white-space: nowrap;
   margin-bottom: 5px;
   pointer-events: none;
+}
+
+/* - - - - - - - - - - suggested posts - - - - - - - -*/
+.suggested-posts .post {
+  float: left;
+  width: 33.33%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.suggested-posts .post .post-thumbnail {
+  width: 100%;
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */

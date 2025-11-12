@@ -122,6 +122,10 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
+
+  &.top{
+    margin-top: 30px;
+  }
 }
 
 .search-page {
@@ -267,6 +271,18 @@ a[data-tooltip]:hover::after {
   pointer-events: none;
 }
 
+/* - - - - - - - - - - suggested posts - - - - - - - -*/
+.suggested-posts {
+  .post {
+    float: left;
+    width: 33.33%;
+    flex-direction: column;
+
+    .post-thumbnail{
+      width: 100%;
+    }
+  }
+}
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
 
