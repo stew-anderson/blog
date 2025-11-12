@@ -72,13 +72,11 @@ export function vendorTask() {
         .pipe(gulp.dest('assets/fonts/fontawesome/css'));
 
     // also copy the v4 shim so old `fa fa-...` classes continue to work
-    const faV4Shim = gulp.src('node_modules/@fortawesome/fontawesome-free/css/v4-shims.css')
-        .pipe(gulp.dest('assets/fonts/fontawesome/css'));
 
     const faFonts = gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
         .pipe(gulp.dest('assets/fonts/fontawesome/webfonts'));
 
-    return Promise.all([faCss, faV4Shim, faFonts]);
+    return Promise.all([faCss, faFonts]);
 }
 
 // Watch scss, html, img files
