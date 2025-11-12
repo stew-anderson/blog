@@ -27,6 +27,8 @@
 
 		bodyclass.remove('dark', 'light');
 		bodyclass.add(scheme);
+
+        darkMode.button.setAttribute('data-tooltip', scheme === 'dark' ? 'Light mode' : 'Dark mode');
 		
         try {
 			localStorage.setItem(STORAGE_KEY, scheme);
@@ -76,11 +78,9 @@
     // load when run
     document.addEventListener('DOMContentLoaded', function () { 
         
-        var toggleButton;
+        darkMode.button = document.getElementById('darkMode');  
 
-        toggleButton = document.getElementById('darkMode');  
-
-        toggleButton.addEventListener('click', function (e) {
+        darkMode.button.addEventListener('click', function (e) {
 
             e.preventDefault();
             darkMode.toggle();

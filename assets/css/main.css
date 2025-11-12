@@ -1,6 +1,6 @@
 /**
   * Main SCSS file  
-  * v1.1.2
+  * v1.1.4
   */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -858,6 +858,29 @@ table tfoot td {
   font-size: 1rem;
 }
 
+/* - - - - - - - - - - tooltips - - - - - - - - - - */
+a[data-tooltip] {
+  position: relative;
+}
+
+a[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  pointer-events: none;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;
@@ -1486,12 +1509,4 @@ body.dark table tfoot {
   background: #333;
   border-top-color: #888;
   color: #e0e0e0;
-}
-body.dark .about img,
-body.dark ul.nav li a,
-body.dark .post,
-body.dark a.older-posts,
-body.dark a.newer-posts {
-  -webkit-transition: none;
-  transition: none;
 }

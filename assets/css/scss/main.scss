@@ -243,10 +243,28 @@ table tfoot td {
       color: darken($body-color, 10%);
     }
   }
-
   .page-number {
     font-size: 1rem;
   }
+}
+/* - - - - - - - - - - tooltips - - - - - - - - - - */
+a[data-tooltip] {
+  position: relative;
+}
+a[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  pointer-events: none;
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */

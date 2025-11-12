@@ -9,8 +9,9 @@ layout: default
       </div>
       <div class="author-name">{{site.author}}</div>
       <ul class="nav">
-        <li><a href="{{site.baseurl}}/"><i class="fa-regular fa-house"></i></a></li>
-        <li><a href="{{site.baseurl}}/search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        <li><a href="{{site.baseurl}}/" data-tooltip="Home"><i class="fa-regular fa-house"></i></a></li>
+        <li><a href="{{site.baseurl}}/about/" data-tooltip="About me"><i class="fa-solid fa-address-card"></i></a></li>
+        <li><a href="{{site.baseurl}}/search" data-tooltip="Search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
       </ul>
       
       <p>{{site.about-author}}</p>
@@ -23,15 +24,14 @@ layout: default
       <h3 class="contact-title">links</h3>
       <ul class="nav">
         {% if site.social-github %}
-          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank" data-tooltip="GitHub"><i class="fa-brands fa-square-github"></i></a></li>
         {% endif %}
         {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a></li>
+          <li class="linkedin"><a href="https://linkedin.com/in/{{site.social-linkedin}}" target="_blank" data-tooltip="LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a></li>
         {% endif %}
-          <li><a href="{{site.baseurl}}/about/"><i class="fa-solid fa-address-card"></i></a></li>
-          <li><a href="{{site.baseurl}}/feed.xml" id="rss-link"><i class="fa-solid fa-square-rss"></i></a></li>
+          <li><a href="{{site.baseurl}}/feed.xml" id="rss-link" data-tooltip="RSS feed"><i class="fa-solid fa-square-rss"></i></a></li>
           <li>
-            <a href="#" id="darkMode" class="dark-toggle">
+            <a href="#" id="darkMode" class="dark-toggle" data-tooltip="Dark mode">
               <i class="dark fa-solid fa-moon"></i>
               <i class="light fa-solid fa-sun"></i>
             </a>
