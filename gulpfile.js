@@ -69,10 +69,10 @@ export function imgTask() {
 export function vendorTask() {
     // copy css and webfonts
     const faCss = gulp.src('node_modules/@fortawesome/fontawesome-free/css/all.min.css')
-        .pipe(gulp.dest('assets/vendor/fontawesome/css'));
+        .pipe(gulp.dest('assets/fonts/fontawesome/css'));
 
     const faFonts = gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
-        .pipe(gulp.dest('assets/vendor/fontawesome/webfonts'));
+        .pipe(gulp.dest('assets/fonts/fontawesome/webfonts'));
 
     return Promise.all([faCss, faFonts]);
 }
