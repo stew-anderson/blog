@@ -886,15 +886,21 @@ a[data-tooltip]:hover::after {
 
 /* - - - - - - - - - - suggested posts - - - - - - - -*/
 .suggested-posts .post {
+  width: 48%;
   float: left;
-  width: 33.33%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  margin-right: 1%;
+  min-height: 40px;
 }
 .suggested-posts .post .post-thumbnail {
-  width: 100%;
+  width: 120px;
+  min-height: 40px;
+}
+.suggested-posts .post .post-title a {
+  font-size: 18px;
+}
+.suggested-posts .post .post-content {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */

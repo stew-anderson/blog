@@ -7,7 +7,8 @@
 
         <h1 class="page-title">Suggested posts</h1>
 
-        {% assign related = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[0] or post.tags contains page.tags[1]" | slice: 0, 3 %}
+        {% assign related = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[0] or post.tags contains page.tags[1]" | slice: 0, 4 %}
+
         {% if related.size > 0 %}
           {% for post in related %}
           <div class="post">
@@ -18,9 +19,9 @@
             {% endif %}
             <div class="post-content">
               <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-              <p>{{ post.excerpt | strip_html | truncatewords: 25 }} <a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
-              <span class="post-date">{{ post.date | date: '%Y, %b %d' }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-              <span class="post-words">{% assign words = post.content | split: ' ' | size %}{{ words | divided_by: 200 | plus: 1 }} minute read</span>
+              <p>{{ post.excerpt | strip_html | truncatewords: 10 }} <a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+              <!-- <span class="post-date">{{ post.date | date: '%Y, %b %d' }}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+              <span class="post-words">{% assign words = post.content | split: ' ' | size %}{{ words | divided_by: 200 | plus: 1 }} minute read</span> -->
             </div>
           </div>
           {% endfor %}

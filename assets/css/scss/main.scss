@@ -274,12 +274,23 @@ a[data-tooltip]:hover::after {
 /* - - - - - - - - - - suggested posts - - - - - - - -*/
 .suggested-posts {
   .post {
+    width: 48%;
     float: left;
-    width: 33.33%;
-    flex-direction: column;
+    margin-right: 1%;
+    min-height: 40px;
 
     .post-thumbnail{
-      width: 100%;
+      width: 120px;
+      min-height: 40px;
+    }
+    .post-title {
+      a {
+        font-size: 18px;
+      }
+    }
+    .post-content{
+      padding-top: 0;
+      padding-bottom: 0;
     }
   }
 }
