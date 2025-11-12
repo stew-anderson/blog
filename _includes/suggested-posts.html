@@ -7,9 +7,7 @@
 
         <h1 class="page-title">Suggested posts</h1>
 
-        <!-- add OR in tag match -->
-
-        {% assign related = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[0]" | slice: 0, 3 %}
+        {% assign related = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[0] or post.tags contains page.tags[1]" | slice: 0, 3 %}
         {% if related.size > 0 %}
           {% for post in related %}
           <div class="post">
