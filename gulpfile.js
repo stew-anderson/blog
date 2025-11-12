@@ -65,20 +65,6 @@ export function imgTask() {
         .pipe(browserSync.reload({stream:true}));
 }
 
-// Copy vendor assets (Font Awesome) from node_modules into assets/vendor
-export function vendorTask() {
-    // copy css and webfonts
-    const faCss = gulp.src('node_modules/@fortawesome/fontawesome-free/css/all.min.css')
-        .pipe(gulp.dest('assets/fonts/fontawesome/css'));
-
-    // also copy the v4 shim so old `fa fa-...` classes continue to work
-
-    const faFonts = gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
-        .pipe(gulp.dest('assets/fonts/fontawesome/webfonts'));
-
-    return Promise.all([faCss, faFonts]);
-}
-
 // Watch scss, html, img files
 export function watchFiles() {
     gulp.watch('assets/css/scss/**/*.scss', sassTask);
