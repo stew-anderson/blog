@@ -9,8 +9,8 @@ layout: default
       </div>
       <div class="author-name">{{site.author}}</div>
       <ul class="nav">
-        <li><a href="{{site.baseurl}}/"><i class="fa fa-home"></i></a></li>
-        <li><a href="{{site.baseurl}}/search"><i class="fa fa-search"></i></a></li>
+        <li><a href="{{site.baseurl}}/"><i class="fa-regular fa-house"></i></a></li>
+        <li><a href="{{site.baseurl}}/search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
       </ul>
       
       <p>{{site.about-author}}</p>
@@ -23,17 +23,17 @@ layout: default
       <h3 class="contact-title">links</h3>
       <ul class="nav">
         {% if site.social-github %}
-          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
         {% endif %}
         {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li class="linkedin"><a href="https://linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a></li>
         {% endif %}
-          <li><a href="{{site.baseurl}}/about/"><i class="fa fa-user-circle-o"></i></a></li>
-          <li><a href="{{site.baseurl}}/feed.xml" id="rss-link"><i class="fa fa-rss"></i></a></li>
+          <li><a href="{{site.baseurl}}/about/"><i class="fa-solid fa-address-card"></i></a></li>
+          <li><a href="{{site.baseurl}}/feed.xml" id="rss-link"><i class="fa-solid fa-square-rss"></i></a></li>
           <li>
             <a href="#" id="darkMode" class="dark-toggle">
-              <i class="dark fa fa-moon-o"></i>
-              <i class="light fa fa-sun-o"></i>
+              <i class="dark fa-solid fa-moon"></i>
+              <i class="light fa-solid fa-sun"></i>
             </a>
           </li>
       </ul>

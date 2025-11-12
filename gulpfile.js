@@ -74,6 +74,6 @@ export function watchFiles() {
 }
 
 //  Default task
-const build = gulp.series(jekyllBuild, sassTask, imgTask);
+const build = gulp.series(vendorTask, jekyllBuild, sassTask, imgTask);
 const serve = gulp.series(build, browserSyncServe, watchFiles);
 export default serve;
