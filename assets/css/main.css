@@ -1510,3 +1510,11 @@ body.dark table tfoot {
   border-top-color: #888;
   color: #e0e0e0;
 }
+body.dark .about img,
+body.dark ul.nav li a,
+body.dark .post,
+body.dark a.older-posts,
+body.dark a.newer-posts {
+  -webkit-transition: none;
+  transition: none;
+}
