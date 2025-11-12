@@ -65,6 +65,18 @@ export function imgTask() {
         .pipe(browserSync.reload({stream:true}));
 }
 
+// Copy vendor assets (Font Awesome) from node_modules into assets/vendor
+export function vendorTask() {
+    // copy css and webfonts
+    const faCss = gulp.src('node_modules/@fortawesome/fontawesome-free/css/all.min.css')
+        .pipe(gulp.dest('assets/vendor/fontawesome/css'));
+
+    const faFonts = gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
+        .pipe(gulp.dest('assets/vendor/fontawesome/webfonts'));
+
+    return Promise.all([faCss, faFonts]);
+}
+
 // Watch scss, html, img files
 export function watchFiles() {
     gulp.watch('assets/css/scss/**/*.scss', sassTask);
@@ -74,6 +86,6 @@ export function watchFiles() {
 }
 
 //  Default task
-const build = gulp.series(jekyllBuild, sassTask, imgTask);
+const build = gulp.series(vendorTask, jekyllBuild, sassTask, imgTask);
 const serve = gulp.series(build, browserSyncServe, watchFiles);
 export default serve;

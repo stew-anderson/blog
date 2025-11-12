@@ -6,6 +6,7 @@
   "repository": "",
   "author": "Stew Anderson",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
     "browser-sync": "^2.18.13",
     "child_process": "^1.0.2",
     "gulp": "^5.0.1",
