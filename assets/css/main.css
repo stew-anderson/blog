@@ -736,6 +736,11 @@ table tfoot td {
 }
 .post.top, .article-page.top {
   margin-top: 30px;
+  width: 100%;
+}
+.post.top .post, .article-page.top .post {
+  margin-bottom: 10px;
+  background-color: #121212;
 }
 
 .search-page {
@@ -1319,6 +1324,13 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  }
+  .suggested-posts .post {
+    width: 100%;
+  }
+  .suggested-posts .post .post-thumbnail {
+    width: 100%;
+    min-height: 100px;
   }
 }
 /* Small Devices, Tablets */

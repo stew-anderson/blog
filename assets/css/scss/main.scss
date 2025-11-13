@@ -125,6 +125,12 @@ table tfoot td {
 
   &.top{
     margin-top: 30px;
+    width: 100%;
+
+    .post{
+      margin-bottom: 10px;
+      background-color: #121212;
+    }
   }
 }
 
