@@ -122,6 +122,16 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
+
+  &.top{
+    margin-top: 30px;
+    width: 100%;
+
+    .post{
+      margin-bottom: 10px;
+      background-color: #121212;
+    }
+  }
 }
 
 .search-page {
@@ -155,117 +165,18 @@ table tfoot td {
   clear: both;
 }
 
-.rss-modal{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
 
-  .rss-inner{
-    background: #fff;
-    padding: 2em 2.5em;
-    border-radius: 8px;
-    max-width: 350px;
-    text-align: center;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.2);
-  }
-
-  h2{
-    margin-top: 0;
-  }
-
-  p{
-    font-size: 1em;
-  }
-
-  .rss-buttons{
-    margin-top: 1.5em;
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-  }
-
-  button{
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 0.5em 1.2em;
-  }
-
-  .continue {
-    background: #263959;
-    color: #fff;
-
-    &:hover {
-      background: darken(#263959, 10%);
-    }
-  }
-
-  .cancel {
-    background: #eee;
-    color: #333;
-
-    &:hover {
-      background: darken(#eee, 10%);
-    }
-  }
-}
+/* - - - - - - - - - - RSS modal - - - - - - - - - - */
+@import 'components/rss-modal';
 
 /* - - - - - - - - - - Pagination - - - - - - - - - - */
-.pagination {
-  text-align: center;
-  margin: 2rem 0;
+@import 'components/pagination';
 
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-flex;
-    gap: 1rem;
-  }
-
-  li {
-    display: inline;
-  }
-
-  a {
-    text-decoration: none;
-    color: $body-color;
-    font-size: 1.2rem;
-
-    &:hover {
-      color: darken($body-color, 10%);
-    }
-  }
-  .page-number {
-    font-size: 1rem;
-  }
-}
 /* - - - - - - - - - - tooltips - - - - - - - - - - */
-a[data-tooltip] {
-  position: relative;
-}
-a[data-tooltip]:hover::after {
-  content: attr(data-tooltip);
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #333;
-  color: #fff;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 12px;
-  white-space: nowrap;
-  margin-bottom: 5px;
-  pointer-events: none;
-}
+@import 'components/tooltips';
+
+/* - - - - - - - - - - suggested posts - - - - - - - -*/
+@import 'components/suggested-posts';
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
@@ -279,148 +190,5 @@ a[data-tooltip]:hover::after {
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 @import 'media';
 
-
-
 /* - - - - - - - - - - Dark mode overrides - - - - - - - - - - */
-
-.dark-toggle {
-  text-decoration: none;
-  cursor: pointer;
-}
-// when in light
-body.light {
-  .dark-toggle .dark {
-    display: inline;
-  }
-  .dark-toggle .light {
-    display: none;
-  }
-}
-// when in dark
-body.dark {
-  background-color: #121212;
-  color: #e0e0e0;
-
-  // catch all text colours
-  .wrap-content a,
-  .post-title a,
-  .post .post-content a,
-  a {
-    color: #fac49f;
-
-    &:hover {
-      color: #b35700;
-    }
-  }
-  blockquote {
-    border-left-color: #b35700;
-    color: #e0e0e0;
-    background-color: #121212
-  }
-  .search-page .search-input {
-    background: #1e1e1e;
-    color: #e0e0e0;
-    border: 1px solid #333;
-
-    &::placeholder {
-      color: #888;
-    }
-  }
-  // toggle buttons
-  .dark-toggle .dark {
-    display: none;
-  }
-  .dark-toggle .light {
-    display: inline;
-  }
-  // rss modal
-  .rss-modal{
-    .rss-inner {
-        background: #1e1e1e;
-        color: #e0e0e0;
-    }
-    .continue {
-      background: #333;
-      color: #e0e0e0;
-
-      &:hover {
-        background: #555;
-      }
-    }
-  }
-  // contact section
-  .contact .contact-title {
-    color: #e0e0e0;
-
-    &:before,
-    &:after{
-      background-color: #e0e0e0;
-    }
-  }
-  // share links
-  .page-footer .page-share a {
-    color: #e0e0e0;
-    border-color: #333;
-    background-color: #1e1e1e;
-  }
-  // tags
-  .tags li a,
-  .page-footer .page-tag a {
-    color: #e0e0e0;
-    border-color: #333;
-    background-color: #1e1e1e;
-    
-    &:hover {
-      background-color: #333;
-    }
-  }
-  // tags page
-  .blog-tags{
-    background: #1e1e1e;
-  }
-  .highlighter-rouge {
-    border-color: #333;
-    background-color: #1e1e1e;
-  }
-  // background colours
-  .sidebar,
-  .post, 
-  .article-page {
-    background-color: #1e1e1e;
-  }
-  // font colours
-  ul.nav li a,
-  .about .author-name,
-  .article-page-title a {
-    color: #e0e0e0;
-  }
-  // table joys
-  table {
-    border-color: #333;
-    background-color: #1e1e1e;
-
-    tr:nth-child(even) {
-      background: #2a2a2a;
-    }
-    th, td {
-      border-color: #333;
-    }
-    thead {
-      border-bottom-color: #555555;
-    }
-    tfoot {
-      background: #333;
-      border-top-color: #888;
-      color: #e0e0e0;
-    }
-  }
-  // remove transitions
-  .about img ,
-  ul.nav li a,
-  .post,
-  a.older-posts, 
-  a.newer-posts
-  {
-    transition: none;
-  }
-}
+@import 'darkmode';

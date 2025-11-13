@@ -734,6 +734,14 @@ table tfoot td {
 .post, .article-page {
   background-color: #fff;
 }
+.post.top, .article-page.top {
+  margin-top: 30px;
+  width: 100%;
+}
+.post.top .post, .article-page.top .post {
+  margin-bottom: 10px;
+  background-color: #121212;
+}
 
 .search-page {
   width: 100%;
@@ -765,6 +773,7 @@ table tfoot td {
   clear: both;
 }
 
+/* - - - - - - - - - - RSS modal - - - - - - - - - - */
 .rss-modal {
   position: fixed;
   top: 0;
@@ -879,6 +888,22 @@ a[data-tooltip]:hover::after {
   white-space: nowrap;
   margin-bottom: 5px;
   pointer-events: none;
+}
+
+/* - - - - - - - - - - suggested posts - - - - - - - -*/
+.suggested-posts .post {
+  min-height: 40px;
+}
+.suggested-posts .post .post-thumbnail {
+  width: 120px;
+  min-height: 40px;
+}
+.suggested-posts .post .post-title a {
+  font-size: 18px;
+}
+.suggested-posts .post .post-content {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
@@ -1300,6 +1325,13 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  }
+  .suggested-posts .post {
+    width: 100%;
+  }
+  .suggested-posts .post .post-thumbnail {
+    width: 100%;
+    min-height: 100px;
   }
 }
 /* Small Devices, Tablets */

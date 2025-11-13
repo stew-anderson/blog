@@ -1,0 +1,34 @@
+
+<!-- style template first -->
+<article class="article-page top">
+    <div class="wrap-content">
+
+      <div class="suggested-posts">
+
+        <h1 class="page-title">Suggested posts</h1>
+
+        {% assign related = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[0] or post.tags contains page.tags[1]" | slice: 0, site.suggested-posts %}
+
+        {% if related.size > 0 %}
+          {% for post in related %}
+          <div class="post">
+            {% if post.img %}
+            <a class="post-thumbnail" style="background-image: url('{{ site.baseurl }}/assets/img/{{ post.img }}')" href="{{ post.url | prepend: site.baseurl }}"></a>
+            {% else %}
+            <a class="post-thumbnail" style="background-image: url('{{ site.baseurl }}/assets/img/about-me.jpg')" href="{{ post.url | prepend: site.baseurl }}"></a>
+            {% endif %}
+            <div class="post-content">
+              <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+              <p>{{ post.excerpt | strip_html | truncatewords: 10 }} <a href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+              <!-- <span class="post-date">{{ post.date | date: '%Y, %b %d' }}</span> -->
+              <!-- <span class="post-words">{% assign words = post.content | split: ' ' | size %}{{ words | divided_by: 200 | plus: 1 }} minute read</span> -->
+            </div>
+          </div>
+          {% endfor %}
+        {% else %}
+          <p>No related posts found.</p>
+        {% endif %}
+
+      </div>
+  </div>
+</article>
