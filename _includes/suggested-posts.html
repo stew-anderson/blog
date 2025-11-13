@@ -7,7 +7,9 @@
 
         <h1 class="page-title">Suggested posts</h1>
 
-        {% assign related = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[0] or post.tags contains page.tags[1]" | slice: 0, site.suggested-posts %}
+        {% assign by_first_tag = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[0]" %}
+        {% assign by_second_tag = site.posts | where_exp: "post", "post.url != page.url" | where_exp: "post", "post.tags contains page.tags[1]" %}
+        {% assign related = by_first_tag | concat: by_second_tag | uniq | slice: 0, site.suggested-posts %}
 
         {% if related.size > 0 %}
           {% for post in related %}
