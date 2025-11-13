@@ -773,6 +773,7 @@ table tfoot td {
   clear: both;
 }
 
+/* - - - - - - - - - - RSS modal - - - - - - - - - - */
 .rss-modal {
   position: fixed;
   top: 0;
