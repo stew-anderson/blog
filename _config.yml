@@ -15,5 +15,6 @@ plugins:
   - "jekyll-paginate"
   - "jemoji"
 paginate: 8
+suggested-posts: 3
 paginate_path: "/page/:num"
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

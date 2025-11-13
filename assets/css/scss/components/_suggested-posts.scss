@@ -1,0 +1,19 @@
+.suggested-posts {
+  .post {
+    min-height: 40px;
+
+    .post-thumbnail{
+      width: 120px;
+      min-height: 40px;
+    }
+    .post-title {
+      a {
+        font-size: 18px;
+      }
+    }
+    .post-content{
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}
