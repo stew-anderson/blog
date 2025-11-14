@@ -740,7 +740,7 @@ table tfoot td {
 }
 .post.top .post, .article-page.top .post {
   margin-bottom: 10px;
-  background-color: #121212;
+  background-color: #fbfbfb;
 }
 
 .search-page {
@@ -1327,7 +1327,7 @@ a.newer-posts:hover {
     font-size: 21px;
   }
   .suggested-posts .post {
-    width: 100%;
+    width: 98%;
   }
   .suggested-posts .post .post-thumbnail {
     width: 100%;
@@ -1518,6 +1518,11 @@ body.dark .sidebar,
 body.dark .post,
 body.dark .article-page {
   background-color: #1e1e1e;
+}
+body.dark .sidebar.top .post,
+body.dark .post.top .post,
+body.dark .article-page.top .post {
+  background-color: #121212;
 }
 body.dark ul.nav li a,
 body.dark .about .author-name,
