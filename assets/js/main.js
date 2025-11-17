@@ -128,7 +128,6 @@ var _$ = _$ || function (id) {
  * Persists choice to localStorage under key 'color-scheme'
  * Initializes on DOMContentLoaded: applies stored choice if present.
  */
-
 (function () {
     'use strict';
 
@@ -222,7 +221,6 @@ var _$ = _$ || function (id) {
  * Implements a "back to top" button that appears
  * when the user scrolls down the page.
  */
-
 (function () {
     'use strict';
 
@@ -269,4 +267,4 @@ var _$ = _$ || function (id) {
             behavior: 'smooth' 
         });
     });
-}())
+})()
