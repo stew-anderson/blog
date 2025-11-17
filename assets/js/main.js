@@ -227,7 +227,7 @@ var _$ = _$ || function (id) {
     // namespace for back to top functionality
     var btt = btt || {};
 
-    btt.scrollthreshold = 500; // pixels scrolled before showing button
+    btt.scrollthreshold = 300; // pixels scrolled before showing button
 
     /**
      * show
@@ -245,15 +245,18 @@ var _$ = _$ || function (id) {
         btt.button.classList.remove('visible');
     };
 
-
+    // add event listeners
     document.addEventListener('DOMContentLoaded', function () { 
 
         btt.button = _$('back-to-top');
 
+        // only add event listeners if button exists
+        if (btt.button === null) {
+            return;
+        }
+
         // Listen for scroll events
         window.addEventListener('scroll', function () {
-
-            console.log(window.scrollY);
 
             if (window.scrollY > btt.scrollthreshold) {
                 btt.show();
@@ -267,8 +270,6 @@ var _$ = _$ || function (id) {
         
             e.preventDefault();
 
-            console.log('Back to top clicked');
-        
             window.scrollTo({
                 top: 0, 
                 behavior: 'smooth' 
