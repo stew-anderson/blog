@@ -784,19 +784,18 @@ table tfoot td {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  border-radius: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px 0 0 5px;
   background-color: #c5c5c5;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-.back-to-top:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: rgb(215.5, 215.5, 215.5);
-}
 .back-to-top.visible {
+  opacity: 0.75;
+}
+.back-to-top.visible:hover {
   opacity: 1;
 }
 
