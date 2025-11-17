@@ -3,7 +3,7 @@
  */
 var _$ = _$ || function (id) { 
     return document.getElementById(id); 
-}
+};
 
 /**
  * RSS Feed Modal functionality.
@@ -225,16 +225,15 @@ var _$ = _$ || function (id) {
     'use strict';
 
     // namespace for back to top functionality
-    var bbt = btt || {};
-        btt.scrollthreshold = 300; // pixels scrolled before showing button
+    var btt = btt || {};
 
-    btt.button = _$('back-to-top');
+    btt.scrollthreshold = 500; // pixels scrolled before showing button
 
     /**
      * show
      * shows the back to top button
      */
-    backToTop.show = function () {
+    btt.show = function () {
         btt.button.classList.add('visible');
     };
 
@@ -242,29 +241,38 @@ var _$ = _$ || function (id) {
      * hide
      * hides the back to top button
      */
-    backToTop.hide = function () {
+    btt.hide = function () {
         btt.button.classList.remove('visible');
     };
 
 
-    // Listen for scroll events
-    window.addEventListener('scroll', function () {
+    document.addEventListener('DOMContentLoaded', function () { 
 
-        if (window.scrollY > btt.scrollthreshold) {
-            btt.show();
-        } else {
-            btt.hide();
-        }
-    });
+        btt.button = _$('back-to-top');
 
-    // Listen for click on button
-    btt.button.addEventListener('click', function (e) {
-       
-        e.preventDefault();
-       
-        window.scrollTo({
-            top: 0, 
-            behavior: 'smooth' 
+        // Listen for scroll events
+        window.addEventListener('scroll', function () {
+
+            console.log(window.scrollY);
+
+            if (window.scrollY > btt.scrollthreshold) {
+                btt.show();
+            } else {
+                btt.hide();
+            }
+        });
+
+        // Listen for click on button
+        btt.button.addEventListener('click', function (e) {
+        
+            e.preventDefault();
+
+            console.log('Back to top clicked');
+        
+            window.scrollTo({
+                top: 0, 
+                behavior: 'smooth' 
+            });
         });
     });
-})()
+})();
