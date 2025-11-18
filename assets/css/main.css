@@ -773,6 +773,32 @@ table tfoot td {
   clear: both;
 }
 
+.back-to-top {
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+  z-index: 100;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #747474;
+  border-radius: 5px 0 0 5px;
+  background-color: #999;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.back-to-top.visible {
+  opacity: 0.5;
+}
+.back-to-top.visible:hover {
+  opacity: 1;
+}
+
 /* - - - - - - - - - - RSS modal - - - - - - - - - - */
 .rss-modal {
   position: fixed;
@@ -1519,8 +1545,6 @@ body.dark .post,
 body.dark .article-page {
   background-color: #1e1e1e;
 }
-body.dark .sidebar.top .post,
-body.dark .post.top .post,
 body.dark .article-page.top .post {
   background-color: #121212;
 }
@@ -1528,6 +1552,14 @@ body.dark ul.nav li a,
 body.dark .about .author-name,
 body.dark .article-page-title a {
   color: #e0e0e0;
+}
+body.dark .back-to-top {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+body.dark .back-to-top:hover {
+  background-color: #333;
+  border-color: #555;
 }
 body.dark table {
   border-color: #333;

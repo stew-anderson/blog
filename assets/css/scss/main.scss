@@ -165,6 +165,31 @@ table tfoot td {
   clear: both;
 }
 
+.back-to-top {
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+  z-index: 100;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #747474;
+  border-radius: 5px 0 0 5px;
+  background-color: #999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+  
+  &.visible{
+    opacity: 0.5;
+   
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
 
 /* - - - - - - - - - - RSS modal - - - - - - - - - - */
 @import 'components/rss-modal';
