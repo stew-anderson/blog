@@ -176,18 +176,18 @@ table tfoot td {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #747474;
   border-radius: 5px 0 0 5px;
-  background-color: #c5c5c5;
+  background-color: #999;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   transition: opacity 0.3s ease-in-out;
   
   &.visible{
-    opacity: 0.75;
+    opacity: 0.5;
    
     &:hover {
       opacity: 1;
-  }
+    }
   }
 }
 

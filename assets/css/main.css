@@ -784,16 +784,16 @@ table tfoot td {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  border: 1px solid #dddddd;
+  border: 1px solid #747474;
   border-radius: 5px 0 0 5px;
-  background-color: #c5c5c5;
+  background-color: #999;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
 .back-to-top.visible {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 .back-to-top.visible:hover {
   opacity: 1;
@@ -1555,7 +1555,7 @@ body.dark .article-page-title a {
 }
 body.dark .back-to-top {
   background-color: #1e1e1e;
-  border: 1px solid #333;
+  border-color: #333;
 }
 body.dark .back-to-top:hover {
   background-color: #333;
